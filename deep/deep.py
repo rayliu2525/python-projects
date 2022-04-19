@@ -2,3 +2,4 @@ x = input("What is the answer to the Great Question of Life, the Universe and Ev
 
 if x == "42"
     print(x)
+elif x ==
