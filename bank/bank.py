@@ -1,3 +1,4 @@
 x = input("Type your greeting: ").lower().strip()
 
-if x == 
+if x == "hello":
+    print("$0")
