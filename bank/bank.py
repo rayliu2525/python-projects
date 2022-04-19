@@ -1,8 +1,8 @@
 x = input("Type your greeting: ").lower().strip()
 
-if x == "hello":
+if "hello" in x:
     print("$0")
-elif x== "h":
+elif "h":
     print("$20")
 else:
     print("$100")
