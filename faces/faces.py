@@ -5,6 +5,6 @@ def convert(param1):
 def main():
     y = input("write your sentence: ")
     z = convert(y)
-    return z
+    print(z)
 
 main()
