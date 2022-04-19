@@ -3,4 +3,8 @@ def convert(param1):
     return x
 
 def main():
-    x = input(")
+    y = input("write your sentence: ")
+    z = convert(y)
+    return z
+
+main()
