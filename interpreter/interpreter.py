@@ -2,10 +2,17 @@ answer = input("expression: ")
 x, y, z = answer.split(" ")
 if y == "+":
     f = float(int(x) + int(z))
-    format_float = "{:.1f}".format(f)
+    q = "{:.1f}".format(f)
+    print(q)
 elif y == "-":
-    print(int(x) - int(z))
+    f = float(int(x) - int(z))
+    q = "{:.1f}".format(f)
+    print(q)
 elif y == "*":
-    print(int(x) * int(z))
+    f = float(int(x) * int(z))
+    q = "{:.1f}".format(f)
+    print(q)
 elif y == "/":
-    print(int(x) / int(z))
+    f = float(int(x) / int(z))
+    q = "{:.1f}".format(f)
+    print(q)
