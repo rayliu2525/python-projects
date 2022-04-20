@@ -6,5 +6,5 @@ elif y == "-":
     print(int(x) - int(y))
 elif y == "*":
     print(int(x) * int(y))
-else y == "/":
+elif y == "/":
     print(int(x) / int(y))
