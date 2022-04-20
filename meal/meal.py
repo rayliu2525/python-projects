@@ -10,6 +10,7 @@ def main():
 
 def convert(time):
     x, y = time.split(":")
+    x = int(x)
     y = int(y)/60
     return x + y
 
