@@ -5,4 +5,4 @@ for letter in x:
         l.append(f"_{letter.lower()})
     else:
         l.append(letter)
-    return 
+"".join(l)
