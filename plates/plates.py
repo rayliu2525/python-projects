@@ -7,7 +7,7 @@ def main():
 
 
 def is_valid(s):
-    if s[0] and s[1] in ascii_uppercase:
+    if only_letters_nums(s) and ascii_first_two(s):
         if 2 <= len(s) <= 6:
             if num_at_end(s):
                 return True
@@ -32,5 +32,11 @@ def only_letters_nums(s):
             return True
         else:
             return False
+
+def ascii_first_two(s):
+    if s[0] and s[1] in ascii_uppercase:
+        return True
+    else:
+        return False
 
 main()
