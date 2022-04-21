@@ -19,7 +19,7 @@ def is_valid(s):
 def num_at_end(s):
     for char in s:
         if char == range(0,10):
-            if ascii_upper not in s[index[char]:]:
+            if ascii_upper not in s[s.index[char]:]:
                 return True
 
 def all_in_ascii(s):
