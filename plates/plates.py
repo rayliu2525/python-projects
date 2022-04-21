@@ -55,5 +55,5 @@ def first_number_not_zero(s):
                 return True
             else:
                 return False
-
+    return True
 main()
