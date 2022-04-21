@@ -16,7 +16,10 @@ def is_valid(s):
                 # make sure all are uppercase if no numbers
                 return True
 
-def 
+def num_at_end(s):
+    for char in s:
+        if char == range(0,10):
+            
 
 
 main()
