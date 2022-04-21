@@ -16,7 +16,7 @@ def is_valid(s):
                 # make sure all are uppercase if no numbers
                 return True
 
-def
+def 
 
 
 main()
