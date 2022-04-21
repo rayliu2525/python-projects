@@ -26,7 +26,7 @@ def num_at_end(s):
                 return True
             else:
                 return False
-        return False
+    return False
 
 def all_in_ascii(s):
     for char in s:
