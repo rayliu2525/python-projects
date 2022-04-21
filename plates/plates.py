@@ -7,7 +7,8 @@ def main():
 
 
 def is_valid(s):
-    if ascii_uppercase in s[:2]
+    if s[0] and s[1] in ascii_uppercase:
+        
 
 
 main()
