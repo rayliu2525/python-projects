@@ -34,8 +34,8 @@ def all_in_ascii(s):
             return True
 
 def only_letters_nums(s):
-    for char in s:
-        if char not in string.ascii_uppercase and char not in [str(char1) for char1 in range(0,10)]:
+    for charr in s:
+        if charr not in string.ascii_uppercase and charr not in [str(char1) for char1 in range(0,10)]:
             return False
     return True
 
