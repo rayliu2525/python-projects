@@ -11,9 +11,7 @@ def is_valid(s):
         if 2 <= len(s) <= 6:
             if num_at_end(s):
                 return True
-            for char in s:
-                if char in ascii_uppercase
-                    return True
+            if all_in_asciis(s):
     else:
         return False
 
