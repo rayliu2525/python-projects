@@ -24,7 +24,7 @@ def num_at_end(s):
 
 def all_in_ascii(s):
     for char in s:
-        if char in ascii_uppercase
+        if char in ascii_uppercase:
             return True
 
 def only_letters_nums(s):
