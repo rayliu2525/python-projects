@@ -21,7 +21,7 @@ def is_valid(s):
 
 def num_at_end(s):
     for char in s:
-        if char == range(0,10):
+        if char in range(0,10):
             if string.ascii_uppercase not in s[s.index[char]:]:
                 return True
 
