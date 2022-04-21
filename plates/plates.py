@@ -8,7 +8,7 @@ def main():
 
 def is_valid(s):
     if s[0] and s[1] in ascii_uppercase:
-        
+        if len(s) <= 6
 
 
 main()
