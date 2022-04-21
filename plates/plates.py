@@ -7,7 +7,7 @@ def main():
 
 
 def is_valid(s):
-    ...
+    if ascii_uppercase in s[:2]
 
 
 main()
