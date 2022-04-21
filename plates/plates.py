@@ -21,6 +21,7 @@ def num_at_end(s):
         if char == range(0,10):
             if ascii_upper not in s[char:]:
                 return True
+
 def all_in_ascii(s):
     for char in s:
         if char in ascii_uppercase
