@@ -1,6 +1,2 @@
-def functio():
-    s = 5
-    return 5
-
-if functio() == 5:
-    print("yes")
+result = string.ascii_uppercase
+print(result)
