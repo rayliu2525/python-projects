@@ -24,18 +24,18 @@ def num_at_end(s):
 
 def all_in_ascii(s):
     for char in s:
-        if char in ascii_uppercase:
+        if char in string.ascii_uppercase:
             return True
 
 def only_letters_nums(s):
     for char in s:
-        if char in ascii_uppercase or range(0,10):
+        if char in string.ascii_uppercase or range(0,10):
             return True
         else:
             return False
 
 def ascii_first_two(s):
-    if s[0] and s[1] in ascii_uppercase:
+    if s[0] and s[1] in string.ascii_uppercase:
         return True
     else:
         return False
