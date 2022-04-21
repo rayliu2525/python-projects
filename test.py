@@ -1,2 +1,6 @@
-x = 75
-print(f"{x - 50} is due")
+def functio(s):
+    s = 5
+    return 5
+
+if functio(x) == 5:
+    print(yes)
