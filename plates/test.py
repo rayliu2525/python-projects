@@ -1,3 +1,3 @@
-if "5" not in ["5"]:
+if "5" in ["5"]:
     print("dfjdslk")
 pass
