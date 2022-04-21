@@ -30,9 +30,7 @@ def all_in_ascii(s):
 
 def only_letters_nums(s):
     for char in s:
-        if char in string.ascii_uppercase or char in range(0,10):
-            return True
-        else:
+        if char not in string.ascii_uppercase and char not in range(0,10):
             return False
 
 def ascii_first_two(s):
