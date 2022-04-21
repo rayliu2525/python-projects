@@ -32,6 +32,7 @@ def only_letters_nums(s):
     for char in s:
         if char not in string.ascii_uppercase and char not in range(0,10):
             return False
+    return True
 
 def ascii_first_two(s):
     if s[0] and s[1] in string.ascii_uppercase:
