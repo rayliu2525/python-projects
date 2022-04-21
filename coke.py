@@ -3,4 +3,4 @@ while x < 50:
     y = int(input("enter a value: "))
     x = x + y
     print(50 - x )
-print(x - 50)
+print(f"{x - 50} is due)
