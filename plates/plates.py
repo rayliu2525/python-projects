@@ -51,7 +51,7 @@ def ascii_first_two(s):
 def first_number_not_zero(s):
     for char in s:
         if char in [str(char1) for char1 in range(0,10)]:
-            if char not "0":
+            if char != "0":
                 return True
             else:
                 return False
