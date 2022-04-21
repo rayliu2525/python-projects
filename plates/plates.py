@@ -11,7 +11,7 @@ def is_valid(s):
         if 2 <= len(s) <= 6:
             if num_at_end(s):
                 return True
-            else:
+            if 
                 return True
     else:
         return False
