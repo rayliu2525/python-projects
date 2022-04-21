@@ -12,6 +12,7 @@ def is_valid(s):
             if num_at_end(s):
                 return True
             if all_in_asciis(s):
+                return True
     else:
         return False
 
