@@ -21,7 +21,7 @@ def is_valid(s):
 
 def num_at_end(s):
     for char in s:
-        if char in list(range(1,10)):
+        if char in list(range(0,10)):
             if string.ascii_uppercase not in s[s.index[char]:]:
                 return True
             else:
@@ -46,5 +46,11 @@ def ascii_first_two(s):
         return True
     else:
         return False
+
+def first_number_not_zero(s):
+    for char in s:
+        if char in [str(char1) for char1 in range(0,10):
+            if char not "0":
+                return True
 
 main()
