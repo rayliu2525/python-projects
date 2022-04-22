@@ -1,0 +1,1 @@
+x = lowwer(input("enter fruit: "))
