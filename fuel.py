@@ -1,3 +1,5 @@
+
+
 x, y = input("enter an amount: " ).split(/)
 gas_percent = round(x / y * 100)
 
