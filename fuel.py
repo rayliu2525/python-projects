@@ -13,6 +13,8 @@ while True:
         break
 
     elif x > y:
+        raise ValueError:
+            print("try again")
 
 
     elif x / y * 100 > 99:
