@@ -1,6 +1,8 @@
 while True:
 
     x, y = input("enter an amount: " ).split(/)
+    x = int(x)
+    y = int(y)
     gas_percent = round(x / y * 100)
 
     try:
