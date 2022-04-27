@@ -2,14 +2,14 @@ while True:
 
     try:
         x, y = input("enter an amount: " ).split("/")
-    except SyntaxError:
+    except ValueError:
         print("try again")
         continue
 
     try:
         if float(x).is_integer() == False or float(y).is_integer() == False:
             continue
-    except ValueError:
+    except (ValueError):
         print("try again")
         continue
 
