@@ -3,6 +3,11 @@ while True:
     x, y = input("enter an amount: " ).split(/)
     gas_percent = round(x / y * 100)
 
+    try:
+        x / y
+    except:
+        
+
     if x / y * 100 < 1:
         print("E)
         break
