@@ -11,7 +11,7 @@ while True:
 
     try:
         x / y
-    except (ZeroDivisionError):
+    except ZeroDivisionError:
         print("try again")
         continue
 
