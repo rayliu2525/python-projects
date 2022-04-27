@@ -1,13 +1,13 @@
-gas = input("enter an amount: " )
-gas_percent = round(gas * 100)
+x, y = input("enter an amount: " ).split(/)
+gas_percent = round(x / y * 100)
 
-if gas * 100 < 1:
+if x / y * 100 < 1:
     print("E)
-    
+
 elif x > y:
 
 
-elif gas * 100 > 99:
+elif x / y * 100 > 99:
     print("F")
 
 else:
