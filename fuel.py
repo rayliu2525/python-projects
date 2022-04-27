@@ -1,1 +1,1 @@
-x = input("enter an )
+x = input("enter an amount: " )
