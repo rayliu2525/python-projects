@@ -14,10 +14,7 @@ while True:
         print("try again")
         continue
 
-    if (x / y).isInteger() == False:
-        continue
-
-    elif x > y:
+    if (x / y).isInteger() == False: or x > y
         raise ValueError:
             print("try again")
             continue
