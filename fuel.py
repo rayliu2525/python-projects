@@ -12,7 +12,7 @@ while True:
     try:
         if float(x).is_integer() == False or float(y).is_integer() == False:
             continue
-    except (ValueError):
+    except ValueError:
         print("try again")
         continue
 
