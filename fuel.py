@@ -15,6 +15,10 @@ while True:
         print("try again")
         continue
 
+    try:
+        x / y
+        if 
+
     if x > y:
         raise ValueError("try again")
         continue
