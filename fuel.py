@@ -16,9 +16,8 @@ while True:
         continue
 
     if x > y:
-        raise ValueError:
-            print("try again")
-            continue
+        raise ValueError("try again")
+        continue
 
     elif x / y * 100 < 1:
         print("E")
