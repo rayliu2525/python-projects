@@ -1,9 +1,1 @@
-
-
-    x = 100
-    y = 0
-
-    try:
-        x / y
-    except ZeroDivisionError:
-        print("not correct")
+print(float(5-10))
