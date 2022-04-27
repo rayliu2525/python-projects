@@ -1,9 +1,6 @@
-
-
-
 while True:
 
-    x, y = input("enter an amount: " ).split(/)
+    x, y = input("enter an amount: " ).split("/")
 
     if float(x).is_integer() == False or float(y).is_integer() == False:
         continue
@@ -18,13 +15,13 @@ while True:
         print("try again")
         continue
 
-    if or x > y
+    if x > y:
         raise ValueError:
             print("try again")
             continue
 
     elif x / y * 100 < 1:
-        print("E)
+        print("E")
         break
 
     elif x / y * 100 > 99:
