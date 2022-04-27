@@ -26,7 +26,7 @@ while True:
             continue
 
 
-    elif x / y * 100 > 99:
+    elif 100 > (x / y * 100) > 99:
         print("F")
         break
 
