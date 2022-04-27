@@ -1,1 +1,1 @@
-print(float(5-10))
+x, y = input("enter an amount: " ).split("/")
