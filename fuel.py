@@ -4,6 +4,10 @@
 while True:
 
     x, y = input("enter an amount: " ).split(/)
+
+    if float(x).is_integer() == False or float(y).is_integer() == False:
+        continue
+
     x = int(x)
     y = int(y)
     gas_percent = round(x / y * 100)
