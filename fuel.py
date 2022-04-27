@@ -14,19 +14,19 @@ while True:
         print("try again")
         continue
 
-    if x / y not
-
-    if x / y * 100 < 1:
-        print("E)
-        break
+    if (x / y).isInteger() == False:
+        continue
 
     elif x > y:
         raise ValueError:
             print("try again")
             continue
 
+    elif x / y * 100 < 1:
+        print("E)
+        break
 
-    elif 100 > (x / y * 100) > 99:
+    elif x / y * 100 > 99:
         print("F")
         break
 
