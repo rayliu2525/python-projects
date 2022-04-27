@@ -1,7 +1,7 @@
 while True:
 
     try:
-        
+
         x, y = input("enter an amount: " ).split("/")
 
     except ValueError:
