@@ -12,6 +12,7 @@ while True:
         x / y
     except (ZeroDivisionError):
         print("try again")
+        continue
 
     if x / y not
 
@@ -22,6 +23,7 @@ while True:
     elif x > y:
         raise ValueError:
             print("try again")
+            continue
 
 
     elif x / y * 100 > 99:
