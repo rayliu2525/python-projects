@@ -2,7 +2,11 @@ while True:
 
     x, y = input("enter an amount: " ).split("/")
 
-    if float(x).is_integer() == False or float(y).is_integer() == False:
+    try:
+        if float(x).is_integer() == False or float(y).is_integer() == False:
+            continue
+    except ValueError:
+        print("try again")
         continue
 
     x = int(x)
