@@ -1,6 +1,10 @@
 while True:
 
-    x, y = input("enter an amount: " ).split("/")
+    try:
+        x, y = input("enter an amount: " ).split("/")
+    except SyntaxError:
+        print("try again")
+        continue
 
     try:
         if float(x).is_integer() == False or float(y).is_integer() == False:
