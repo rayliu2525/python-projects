@@ -1,9 +1,8 @@
 while True:
 
     try:
+        
         x, y = input("enter an amount: " ).split("/")
-        if x < 0 or y < 0:
-            continue
 
     except ValueError:
         print("try again")
