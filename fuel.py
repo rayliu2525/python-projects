@@ -9,12 +9,10 @@ while True:
     y = int(y)
 
     try:
-        x / y
+        gas_percent = f"{round(x / y * 100)}%"
     except ZeroDivisionError:
         print("try again")
         continue
-
-    gas_percent = f"{round(x / y * 100)}%"
 
     if x > y:
         continue
