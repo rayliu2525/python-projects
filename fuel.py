@@ -5,8 +5,8 @@ while True:
 
     try:
         x / y
-    except:
-        
+    except (ZeroDivisionError):
+        print("try again")
 
     if x / y * 100 < 1:
         print("E)
