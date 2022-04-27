@@ -1,4 +1,9 @@
-try:
-    100 / 0
-except ZeroDivisionError:
-    print("not correct")
+
+
+    x = 100
+    y = 0
+
+    try:
+        x / y
+    except ZeroDivisionError:
+        print("not correct")
