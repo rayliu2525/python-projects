@@ -7,7 +7,7 @@ while True:
 
     x = int(x)
     y = int(y)
-    gas_percent = round(x / y * 100)
+    gas_percent = f"{round(x / y * 100)}%"
 
     try:
         x / y
@@ -16,7 +16,6 @@ while True:
         continue
 
     if x > y:
-        raise ValueError("try again")
         continue
 
     elif x / y * 100 < 1:
