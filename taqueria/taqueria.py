@@ -2,7 +2,10 @@ total = 0
 
 while True:
 
-    item = input("Enter Item: ").lower().title()
+    try:
+        item = input("Enter Item: ").lower().title()
+    except EOFError:
+        print("hello")
 
     menu = {
         "Baja Taco": 4.00,
