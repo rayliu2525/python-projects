@@ -1,3 +1,5 @@
+total = 0
+
 while True:
 
     item = input("Enter Item: ").lower().title()
@@ -13,8 +15,6 @@ while True:
         "Taco": 3.00,
         "Tortilla Salad": 8.00
     }
-
-    total = 0
 
     if item in menu:
         total += menu[item]
