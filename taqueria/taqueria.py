@@ -12,7 +12,9 @@ menu = {
     "Tortilla Salad": 8.00
 }
 
-total = 
+total = menu[item]
 
 if item in menu:
-    print menu[item]
+    print total
+
+total += 
