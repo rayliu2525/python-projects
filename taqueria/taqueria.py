@@ -5,7 +5,7 @@ while True:
     try:
         item = input("Enter Item: ").lower().title()
     except EOFError:
-        sys.exit()
+        quit()
 
     menu = {
         "Baja Taco": 4.00,
