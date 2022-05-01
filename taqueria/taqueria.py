@@ -14,9 +14,9 @@ while True:
         "Tortilla Salad": 8.00
     }
 
-    total = 0
+    
 
     if item in menu:
-        total += menu[item]
+        total = menu[item]
         print(f"${total}")
 
