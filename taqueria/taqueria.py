@@ -1,1 +1,1 @@
-item = input("Enter Item: ")
+item = lower(input("Enter Item: "))
