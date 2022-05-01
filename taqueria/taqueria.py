@@ -13,4 +13,4 @@ menu = {
 }
 
 if item in menu:
-    
+    print menu[item]
