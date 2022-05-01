@@ -1,6 +1,6 @@
 while True:
 
-    item = title(lower(input("Enter Item: ")))
+    item = input("Enter Item: ").lower().title()
 
     menu = {
         "Baja Taco": 4.00,
