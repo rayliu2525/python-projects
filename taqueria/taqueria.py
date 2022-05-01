@@ -14,8 +14,7 @@ menu = {
 
 total = 0
 
-total += menu[item]
-
 if item in menu:
+    total += menu[item]
     print f"${total}"
 
