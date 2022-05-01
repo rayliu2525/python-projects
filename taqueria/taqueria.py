@@ -21,5 +21,6 @@ while True:
 
     if item in menu:
         total += menu[item]
-        print(f"${total}")
+        format_float = "{:.2f}".format(total)
+        print(f"${format_float}")
 
