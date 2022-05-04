@@ -7,3 +7,4 @@ while True:
         quit()
 
     grocery_list.append(item)
+    
