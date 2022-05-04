@@ -6,8 +6,7 @@ while True:
     except EOFError:
         new_grocery_list = []
         [new_grocery_list.append(x) for x in grocery_list if x not in new_grocery_list]
-        sorted_list = new_grocery_list.sort()
-        [print(f"{grocery_list.count(x)} {x}") for x in sorted_list]
+        [print(f"{grocery_list.count(x)} {x}") for x in new_grocery_list.sort]
         quit()
 
     grocery_list.append(item)
