@@ -1,7 +1,10 @@
-list = ["a", "c", "b"]
-sorted_list = list.sort()
+test_list = [1, 3, 5, 6, 3, 5, 6, 1]
+print ("The original list is : " +  str(test_list))
 
-for x in sorted_list:
-    print(x)
+# using list comprehension
+# to remove duplicated
+# from list
+res = []
 
- 
+x = [res.append(x) for x in test_list if x not in res]
+print(x)
