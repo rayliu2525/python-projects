@@ -6,6 +6,7 @@ while True:
     except EOFError:
         new_grocery_list = []
         [new_grocery_list.append(x) for x in grocery_list if x not in new_grocery_list]
+        new_grocery_list.sort()
         quit()
 
     grocery_list.append(item)
