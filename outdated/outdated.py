@@ -1,2 +1,17 @@
+month = [
+    "January",
+    "February",
+    "March",
+    "April",
+    "May",
+    "June",
+    "July",
+    "August",
+    "September",
+    "October",
+    "November",
+    "December"
+]
+
 try:
-    date = input()
+    date = input("Date: ")
