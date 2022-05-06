@@ -15,5 +15,5 @@ month = [
 
 try:
     date = input("Date: ")
-     = date.split(/)
+    month, day, year = date.split(/)
 except:
