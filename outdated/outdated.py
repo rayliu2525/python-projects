@@ -1,4 +1,4 @@
-month = [
+month_list = [
     "January",
     "February",
     "March",
@@ -23,7 +23,7 @@ while True:
         try:
             date = input("Date: ")
             old_month, old_day, year = date.split(" ")
-            month = 
+            month = month_list.index(month)
 
         except:
             pass
