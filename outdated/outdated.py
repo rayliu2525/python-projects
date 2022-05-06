@@ -30,4 +30,4 @@ while True:
         except:
             pass
 
-print
+print (f"{year}-{month}-{day}")
