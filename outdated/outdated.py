@@ -23,7 +23,9 @@ while True:
         try:
             date = input("Date: ")
             old_month, old_day, year = date.split(" ")
-            month = month_list.index(month) + 1
+            month = month_list.index(old_month) + 1
+            day = old_day.replace(",", "")
+
 
         except:
             pass
