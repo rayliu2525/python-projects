@@ -23,6 +23,8 @@ while True:
         try:
             date = input("Date: ")
             old_month, old_day, year = date.split(" ")
+            month = 
+
         except:
             pass
 print
