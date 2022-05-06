@@ -15,5 +15,5 @@ month = [
 
 try:
     date = input("Date: ")
-except:
     
+except:
