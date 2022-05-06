@@ -21,6 +21,6 @@ while True:
             break
     except:
         date = input("Date: ")
-        
+        old_month, old_day, year = date.split(" ")
 
 print
