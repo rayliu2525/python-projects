@@ -17,5 +17,5 @@ while True:
     try:
         date = input("Date: ")
         month, day, year = date.split(/)
-        if month 
+        if month in list(range(1,13))
     except:
