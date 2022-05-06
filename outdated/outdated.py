@@ -14,7 +14,8 @@ month = [
 ]
 
 while True:
-    try:
-        date = input("Date: ")
-        month, day, year = date.split(/)
-    except:
+    if 
+        try:
+            date = input("Date: ")
+            month, day, year = date.split(/)
+        except:
