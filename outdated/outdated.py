@@ -20,7 +20,8 @@ while True:
         if month in list(range(1,13)) and day in list(range(1,32)):
             break
     except:
-        date = input("Date: ")
-        old_month, old_day, year = date.split(" ")
+        try:
+            date = input("Date: ")
+            old_month, old_day, year = date.split(" ")
 
 print
