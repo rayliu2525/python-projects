@@ -25,8 +25,8 @@ while True:
             old_month, old_day, year = date.split(" ")
             month = month_list.index(old_month) + 1
             day = old_day.replace(",", "")
-
-
+            if month in list(range(1,13)) and day in list(range(1,32)):
+            break
         except:
             pass
 print
