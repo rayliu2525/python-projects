@@ -1,6 +1,7 @@
-import pyfiglet
 import random
 import sys
+from pyfiglet import Figlet
+figlet = Figlet()
 
 text = input("Input: ")
 
