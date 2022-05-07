@@ -1,6 +1,9 @@
 import random
 import sys
 from pyfiglet import Figlet
+
+if sysargv[1] 
+
 figlet = Figlet()
 
 font_list = figlet.getFonts()
