@@ -6,7 +6,7 @@ figlet = Figlet()
 
 font_list = figlet.getFonts()
 
-if ("-f" or "-font") not in sys.argv[1] or font_list not in sys.argv[2]:
+if ("-f" or "-font") not in sys.argv[1] or sys.argv[2] not in font_list:
     sys.exit
 
 
