@@ -5,4 +5,3 @@ import sys
 text = input("Input: ")
 
 if len(sys.argv) = 1:
-    
