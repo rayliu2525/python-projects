@@ -2,11 +2,14 @@ import random
 import sys
 from pyfiglet import Figlet
 
-if (-f or -font) not in sysargv[1]
-
 figlet = Figlet()
 
 font_list = figlet.getFonts()
+
+if (-f or -font) not in sysargv[1] or font_list not in sysargv[2]:
+    sys.exit
+
+
 
 text = input("Input: ")
 
