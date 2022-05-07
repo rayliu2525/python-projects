@@ -2,7 +2,7 @@ import random
 import sys
 from pyfiglet import Figlet
 
-if sysargv[1] 
+if (-f or -font) not in sysargv[1]
 
 figlet = Figlet()
 
