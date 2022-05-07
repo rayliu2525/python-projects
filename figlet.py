@@ -4,4 +4,5 @@ import sys
 
 text = input("Input: ")
 
-if
+if len(sys.argv) = 1:
+    
