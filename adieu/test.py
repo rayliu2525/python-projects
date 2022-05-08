@@ -1,4 +1,4 @@
-lst = [0, 1, 2, 3, 4, 5]
-slice_lst = lst[:3]
+import inflect
 
-print(slice_lst)
+mylist = inflect.join(("apple", "banana", "carrot"))
+print(mylist)
