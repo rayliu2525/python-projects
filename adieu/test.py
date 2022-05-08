@@ -1,4 +1,5 @@
 import inflect
 
-mylist = inflect.p.join(("apple", "banana", "carrot"))
-print(mylist)
+mylist = (("apple", "banana", "carrot"))
+new_list = mylist.join()
+print(new_list)
