@@ -1,4 +1,5 @@
 import inflect
+p = inflect.engine()
 
 name_list = []
 
@@ -10,4 +11,4 @@ while True:
         break
 
 for name in name_list:
-    print(f"Adieu, adieu, to {inflect.join(name_list[:(name_list.index(name) + 1)])}")
+    print(f"Adieu, adieu, to {p.join(name_list[:(name_list.index(name) + 1)])}")
