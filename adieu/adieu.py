@@ -7,4 +7,5 @@ while True:
     except EOFError:
         break
 
-
+for name in name_list:
+    print("Adieu, adieu, to )
