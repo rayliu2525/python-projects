@@ -10,5 +10,6 @@ while True:
     except EOFError:
         break
 
+"\n"
 for name in name_list:
     print(f"Adieu, adieu, to {p.join(name_list[:(name_list.index(name) + 1)])}")
