@@ -19,5 +19,5 @@ if len(sys.argv) == 3:
     if ("-f" or "-font") not in sys.argv[1] or sys.argv[2] not in font_list:
         sys.exit
 
-    figlet.setFont(random.choice(sys.argv[2]))
+    figlet.setFont(font=(sys.argv[2]))
     print(figlet.renderText(text))
