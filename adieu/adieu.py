@@ -10,4 +10,4 @@ while True:
         break
 
 for name in name_list:
-    print("Adieu, adieu, to )
+    print(f"Adieu, adieu, to {import.join()})
