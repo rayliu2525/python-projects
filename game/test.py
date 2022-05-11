@@ -1,6 +1,8 @@
+import sys
+
 while True:
     try:
         print("hello")
-        exit()
+        sys.exit()
     except:
         print("hello")
