@@ -1,2 +1,2 @@
-x = "4.3"
-print(int(x))
+x = "4"
+print(isnumeric(x))
