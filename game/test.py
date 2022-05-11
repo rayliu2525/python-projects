@@ -1,3 +1,6 @@
 while True:
-    print("hello")
-    quit()
+    try:
+        print("hello")
+        quit()
+    except:
+        print("hello")
