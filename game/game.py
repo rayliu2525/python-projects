@@ -13,3 +13,7 @@ rand_int = random.randint(1, level)
 
 while True:
     guess = input("Guess: ")
+    if guess < rand_int:
+        print("Too small!")
+    elic guess > rand_int:
+        print("Too large!")
