@@ -12,11 +12,16 @@ while True:
 rand_int = random.randint(1, level)
 
 while True:
-    guess = input("Guess: ")
-    if guess < rand_int:
-        print("Too small!")
-    elif guess > rand_int:
-        print("Too large!")
-    else:
-        print("Just right!")
-        quit()
+    try:
+        guess = input("Guess: ")
+        guess = int(guess)
+        if guess > 0:
+            if guess < rand_int:
+                print("Too small!")
+            elif guess > rand_int:
+                print("Too large!")
+            else:
+                print("Just right!")
+                quit()
+    except:
+        print("Enter a valid number!")
