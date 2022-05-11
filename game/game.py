@@ -22,6 +22,6 @@ while True:
                 print("Too large!")
             else:
                 print("Just right!")
-                break
+                quit()
     except:
         print("Enter a valid number!")
