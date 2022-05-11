@@ -15,5 +15,8 @@ while True:
     guess = input("Guess: ")
     if guess < rand_int:
         print("Too small!")
-    elic guess > rand_int:
+    elif guess > rand_int:
         print("Too large!")
+    else:
+        print("Just right!")
+        quit()
