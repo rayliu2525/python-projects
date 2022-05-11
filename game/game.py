@@ -10,4 +10,6 @@ while True:
         print("Enter a valid number!")
 
 rand_int = random.randint(1, level)
-guess = input("Guess: ")
+
+while True:
+    guess = input("Guess: ")
