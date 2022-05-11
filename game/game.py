@@ -1,3 +1,4 @@
 while True:
-    level = input("Level: ")
-    if level > 0 and 
+    try:
+        level = input("Level: ")
+        
