@@ -4,8 +4,8 @@ while True:
     try:
         level = input("Level: ")
         level = int(level)
-            if level > 0:
-                break
+        if level > 0:
+            break
     except:
         print("Enter a valid number!")
 
