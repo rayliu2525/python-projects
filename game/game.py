@@ -7,6 +7,7 @@ while True:
             if level > 0:
                 break
     except:
+        print("Enter a valid number!")
 
 rand_int = random.randint(1, level)
 guess = input("Guess: ")
