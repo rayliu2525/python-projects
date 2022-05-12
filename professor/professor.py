@@ -16,7 +16,7 @@ def get_level():
             print("type valid number")
 
 def generate_integer(level):
-    ...
+    if 
 
 
 if __name__ == "__main__":
