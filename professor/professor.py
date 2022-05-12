@@ -9,6 +9,7 @@ def main():
             break
 
     while True:
+        correct = 0
         question_number += 1
         x = generate_integer(level)
         y = generate_integer(level)
@@ -17,6 +18,7 @@ def main():
         while True:
             result = input(f"{x} + {y} = ")
             if sum == int(result):
+                correct += 1
                 break
             else:
                 wrong_times += 1
@@ -26,6 +28,8 @@ def main():
                     break
         if question_number == 10:
             break
+
+    print(f"score: {correct}")
 
 
 def get_level():
