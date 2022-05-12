@@ -6,7 +6,7 @@ def main():
     x = generate_integer(level)
     y = generate_integer(level)
     sum = x + y
-    result = input(f"{x} + {y})
+    result = input(f"{x} + {y} = ")
 
 
 def get_level():
