@@ -7,10 +7,11 @@ def main():
         x = generate_integer(level)
         y = generate_integer(level)
         sum = x + y
-        result = input(f"{x} + {y} = ")
-        if sum == result:
-            pass
-        else:
+        while True:
+            result = input(f"{x} + {y} = ")
+            if sum == result:
+                pass
+            else:
 
 
 def get_level():
