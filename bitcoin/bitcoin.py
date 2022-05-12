@@ -19,4 +19,6 @@ bitcoin_usd = r["bpi"]["USD"]["rate_float"]
 total_amount = bitcoin_number * bitcoin_usd
 
 total_amount = '{0:.4f}'.format(total_amount)
+total_amount + '{:,}'.format(total_amount)
 total_amount = float(total_amount)
+print()
