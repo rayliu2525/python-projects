@@ -12,7 +12,7 @@ def get_level():
             level = int(level)
             if level in [1, 2, 3]
         except:
-            
+            print(")
 
 def generate_integer(level):
     ...
