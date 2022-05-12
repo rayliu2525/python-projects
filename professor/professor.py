@@ -3,9 +3,10 @@ import random
 
 def main():
     question_number = 0
-    while TrueL
+    while True:
         level = get_level()
-        if level 
+        if level in [1, 2, 3]:
+            break
 
     while True:
         question_number += 1
