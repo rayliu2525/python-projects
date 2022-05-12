@@ -13,6 +13,7 @@ except ValueError:
 
 try:
     r = requests.get('https://api.github.com/events')
+    with open()
     r = json.load(r)
 except requests.RequestException:
     print("error")
