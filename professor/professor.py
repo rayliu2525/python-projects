@@ -12,7 +12,7 @@ def main():
         wrong_times = 0
         while True:
             result = input(f"{x} + {y} = ")
-            if sum == result:
+            if sum == int(result):
                 break
             else:
                 wrong_times += 1
