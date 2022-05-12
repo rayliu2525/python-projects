@@ -10,9 +10,10 @@ def get_level():
         try:
             level = input("Level: ")
             level = int(level)
-            if level in [1, 2, 3]
+            if level in [1, 2, 3]:
+                return level
         except:
-            print(")
+            print("type valid number")
 
 def generate_integer(level):
     ...
