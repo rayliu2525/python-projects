@@ -10,8 +10,9 @@ def main():
         while True:
             result = input(f"{x} + {y} = ")
             if sum == result:
-                pass
+                break
             else:
+                print("EEE")
 
 
 def get_level():
