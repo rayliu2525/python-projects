@@ -13,6 +13,7 @@ def main():
                 break
             else:
                 print("EEE")
+                print(f"{x} + {y} = {sum}")
 
 
 def get_level():
