@@ -8,8 +8,9 @@ def main():
         if level in [1, 2, 3]:
             break
 
+    correct = 0
+
     while True:
-        correct = 0
         question_number += 1
         x = generate_integer(level)
         y = generate_integer(level)
