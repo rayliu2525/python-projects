@@ -1,5 +1,6 @@
 import sys
 import requests
+import json
 
 try:
     bitcoin_number = float(sys.argv[1])
@@ -12,6 +13,7 @@ except ValueError:
 
 try:
     r = requests.get('https://api.github.com/events')
+    r = json.load(r)
 except requests.RequestException:
     print("error")
 
