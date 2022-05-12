@@ -10,5 +10,10 @@ except ValueError:
     print("Command-line argument is not a number")
     sys.exit
 
-r = requests.get('https://api.github.com/events')
+try:
+    r = requests.get('https://api.github.com/events')
+except requests.RequestException:
+    print("error")
+
 bitcoin_usd = r["bpi"]["USD"]["rate_float"]
+total_amount = bitcoin_number * bitcoin_usd
