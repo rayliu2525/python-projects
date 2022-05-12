@@ -18,10 +18,12 @@ def get_level():
 def generate_integer(level):
     if level == 1:
         return randint(1, 9)
-    if level == 2:
+    elif level == 2:
         return randint(10, 99)
-    if level == 3:
+    elif level == 3:
         return randint(100, 999)
+    else:
+        raise ValueError
 
 if __name__ == "__main__":
     main()
