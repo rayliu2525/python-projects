@@ -2,11 +2,15 @@ import random
 
 
 def main():
-    level = get_level()
-    x = generate_integer(level)
-    y = generate_integer(level)
-    sum = x + y
-    result = input(f"{x} + {y} = ")
+    while True:
+        level = get_level()
+        x = generate_integer(level)
+        y = generate_integer(level)
+        sum = x + y
+        result = input(f"{x} + {y} = ")
+        if sum == result:
+            pass
+        else:
 
 
 def get_level():
