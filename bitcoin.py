@@ -11,4 +11,4 @@ except ValueError:
     sys.exit
 
 r = requests.get('https://api.github.com/events')
-bitcoin_usd = r["bpi"]
+bitcoin_usd = r["bpi"]["USD"]["rate_float"]
