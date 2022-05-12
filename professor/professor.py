@@ -7,13 +7,16 @@ def main():
         x = generate_integer(level)
         y = generate_integer(level)
         sum = x + y
+        wrong_times = 0
         while True:
             result = input(f"{x} + {y} = ")
             if sum == result:
                 break
             else:
+                wrong_times += 1
                 print("EEE")
-                print(f"{x} + {y} = {sum}")
+                if wrong_times == 3:
+                    print(f"{x} + {y} = {sum}")
 
 
 def get_level():
