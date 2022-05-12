@@ -3,9 +3,12 @@ import random
 
 def main():
     question_number = 0
+    while TrueL
+        level = get_level()
+        if level 
+
     while True:
         question_number += 1
-        level = get_level()
         x = generate_integer(level)
         y = generate_integer(level)
         sum = x + y
