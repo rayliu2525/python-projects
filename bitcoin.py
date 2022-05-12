@@ -1,4 +1,5 @@
 import sys
+import requests
 
 try:
     float(sys.argv[1])
