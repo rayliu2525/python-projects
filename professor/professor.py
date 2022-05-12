@@ -19,6 +19,9 @@ def main():
                 print("EEE")
                 if wrong_times == 3:
                     print(f"{x} + {y} = {sum}")
+                    break
+        if question_number == 10:
+            break
 
 
 def get_level():
