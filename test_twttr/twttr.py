@@ -12,4 +12,4 @@ def shorten(word):
 
 
 if __name__ == "__main__":
-    main("hello My Name is Raymond")
+    main("aeiouAEIOUhhhGGGGGhh")
