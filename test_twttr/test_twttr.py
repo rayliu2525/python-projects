@@ -6,3 +6,4 @@ def test_shorten1():
 
 
 def test_shorten2():
+    twttr.shorten("Hello, I love to eat beef")
