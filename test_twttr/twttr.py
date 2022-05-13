@@ -1,5 +1,5 @@
 def main():
-    ...
+    no_vowel = shorten 
 
 
 def shorten(word):
