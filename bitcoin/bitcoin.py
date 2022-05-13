@@ -12,7 +12,7 @@ except ValueError:
     sys.exit
 
 try:
-    r = requests.get('https://api.github.com/events')
+    r = requests.get('https://api.coindesk.com/v1/bpi/currentprice.json')
 except requests.RequestException:
     print("error")
 
