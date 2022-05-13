@@ -1,2 +1,5 @@
-x = '{0:.16f}'.format(1.6)
-print(type(x))
+import json
+import requests
+
+r = requests.get('https://api.github.com/events')
+print(r)
