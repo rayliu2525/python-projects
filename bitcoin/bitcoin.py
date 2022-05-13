@@ -16,6 +16,7 @@ try:
 except requests.RequestException:
     print("error")
 
+r = r.json()
 bitcoin_usd = r["bpi"]["USD"]["rate_float"]
 total_amount = bitcoin_number * bitcoin_usd
 
