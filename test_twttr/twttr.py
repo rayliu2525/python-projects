@@ -5,3 +5,14 @@ for char in x:
         lst.append(char)
 z = "".join(lst)
 print(z)
+
+def main():
+    ...
+
+
+def shorten(word):
+    ...
+
+
+if __name__ == "__main__":
+    main()
