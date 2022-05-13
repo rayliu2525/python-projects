@@ -1,11 +1,3 @@
-x = input("type a string: ")
-lst = []
-for char in x:
-    if char not in ["a", "A", "e", "E", "i", "I", "o", "O", "u", "U"]:
-        lst.append(char)
-z = "".join(lst)
-print(z)
-
 def main():
     ...
 
@@ -15,7 +7,7 @@ def shorten(word):
     for char in word:
         if char not in ["a", "A", "e", "E", "i", "I", "o", "O", "u", "U"]:
             lst.append(char)
-    z = "".join(lst)
+    new_word = "".join(lst)
     print(z)
 
 
