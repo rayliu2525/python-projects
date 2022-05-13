@@ -6,5 +6,5 @@ def test_shorten1():
 def test_shorten2():
     twttr.shorten("Hello, I love to eat beef")
 
-def test_shorten2():
+def test_shorten3():
     twttr.shorten("I am going to the bathroom")
