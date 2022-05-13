@@ -10,4 +10,4 @@ def test_shorten3():
     return twttr.shorten("I am going to the bathroom")
 
 def test_shorten3():
-    return twttr.shorten("")
+    return twttr.shorten("AEIOUaeiou")
