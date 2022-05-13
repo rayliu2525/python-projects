@@ -1,6 +1,6 @@
 def main(word):
     no_vowel = shorten(word)
-    print(word)
+    print(no_vowel)
 
 def shorten(word):
     lst = []
