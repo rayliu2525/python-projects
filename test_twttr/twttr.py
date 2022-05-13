@@ -7,7 +7,7 @@ def shorten(word):
     for char in word:
         if char not in ["a", "A", "e", "E", "i", "I", "o", "O", "u", "U"]:
             lst.append(char)
-    new_wor = "".join(lst)
+    new_word = "".join(lst)
     return new_word
 
 
