@@ -7,7 +7,7 @@ def test_numbers():
     assert shorten("AEIOUaeiou123") == "123"
 
 def test_upper():
-    assert shorten("AEN") == "N"
+    assert shorten("AENTYTY") == "NTYTY"
 
 def test_upper():
     assert shorten("AEN!") == "N!"
