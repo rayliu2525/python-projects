@@ -15,3 +15,5 @@ def test_numbmiddle():
 def test_length():
     assert is_valid("JKKKKKKK") == False
 
+def test_zero():
+    assert is_valid("0K") == False
