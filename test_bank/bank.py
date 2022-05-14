@@ -1,5 +1,6 @@
 def main(greeting):
     dollar_amount = value(greeting)
+    print(f")
 
 
 def value(greeting):
