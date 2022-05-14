@@ -17,3 +17,6 @@ def test_length():
 
 def test_zero():
     assert is_valid("0K") == False
+
+def test_alphanumeric():
+    assert is_valid("!!!") == False
