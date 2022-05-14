@@ -56,4 +56,6 @@ def first_number_not_zero(s):
             else:
                 return False
     return True
-main()
+
+if __name__ = "__main__":
+    main()
