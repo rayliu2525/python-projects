@@ -8,6 +8,3 @@ def test_numbers():
 
 def test_upper():
     assert shorten("AEIOUaeiou123") == "123AWDGR"
-
-def test_lower():
-    assert shorten("AEIOUaeiou123") == "123AWDG!!!"
