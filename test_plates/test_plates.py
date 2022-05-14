@@ -12,3 +12,6 @@ def test_punctuations():
 def test_numbmiddle():
     assert is_valid("JK00K") == False
 
+def test_length():
+    assert is_valid("JKKKKKKK") == False
+
