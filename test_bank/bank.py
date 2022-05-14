@@ -1,5 +1,5 @@
 def main():
-    ...
+    dollar_amount = value()
 
 
 def value(greeting):
