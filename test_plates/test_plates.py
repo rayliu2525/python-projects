@@ -16,7 +16,7 @@ def test_length():
     assert is_valid("JKKKKKKK") == False
 
 def test_zero():
-    assert is_valid("K00") == False
+    assert is_valid("AAA022") == False
 
 def test_0():
     assert is_valid("JK5 0") == False
