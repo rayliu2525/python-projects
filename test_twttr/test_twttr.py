@@ -1,8 +1,4 @@
 from twttr import shorten
 
-def test_shorten3():
-    x = twttr.shorten("AEIOUaeiou")
-    if x == "":
-        return True
-    else:
-        return False
+def test_all_vowels():
+    assert shorten("AEIOUaeiou") == ""
