@@ -1,4 +1,4 @@
 from bank import value
 
 def test_hello():
-    assert value()
+    assert value("hello") == 0
