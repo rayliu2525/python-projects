@@ -6,5 +6,5 @@ def test_all_vowels():
 def test_numbers():
     assert shorten("AEIOUaeiou123") == "123"
 
-def test_upper():
+    def test_upper():
     assert shorten("AEIOUaeiou123") == "123AWDGR"
