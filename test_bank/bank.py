@@ -4,7 +4,7 @@ def main(greeting):
 
 
 def value(greeting):
-    x = greeting
+    x = greeting.lower()
 
     if x[0:5] == "hello":
         return 0
