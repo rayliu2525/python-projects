@@ -7,4 +7,4 @@ def test_h():
     assert value("honk") == 20
 
 def test_otherwise():
-    assert value("adsfdsf") == 100
+    assert value("adsFDdsf") == 100
