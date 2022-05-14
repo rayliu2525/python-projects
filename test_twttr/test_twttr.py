@@ -9,5 +9,5 @@ def test_numbers():
 def test_upper():
     assert shorten("AENTYTY!ad") == "NTYTY!d"
 
-def test_upper():
+def test_punctuations():
     assert shorten("AEN!") == "N!"
