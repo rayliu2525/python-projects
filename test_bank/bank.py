@@ -4,7 +4,7 @@ def main(greeting):
 
 
 def value(greeting):
-    x = input(f"{greeting}: ").lower().strip()
+    x = greeting
 
     if x[0:5] == "hello":
         return 0
@@ -15,4 +15,4 @@ def value(greeting):
 
 
 if __name__ == "__main__":
-    main("greeting")
+    main("hello")
