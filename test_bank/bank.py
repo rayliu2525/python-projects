@@ -4,7 +4,7 @@ def main(greeting):
 
 
 def value(greeting):
-    x = input("Type your greeting: ").lower().strip()
+    x = input(f"{greeting}: ").lower().strip()
 
     if x[0:5] == "hello":
         return 0
