@@ -9,15 +9,13 @@ def convert(fraction):
         x, y = fraction.split("/")
 
     except ValueError:
-        print("try again")
-        return
+        raise ValueError("try again")
 
     try:
         if float(x).is_integer() == False or float(y).is_integer() == False:
             pass
     except ValueError:
-        print("try again")
-        return
+        raise ValueError("try again")
 
     x = int(x)
     y = int(y)
@@ -25,8 +23,7 @@ def convert(fraction):
     try:
         percentage = round(x / y * 100)
     except ZeroDivisionError:
-        print("try again")
-        return
+        raise ZeroDivisionError("try again")
 
     if x > y:
         print("try again")
