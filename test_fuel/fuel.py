@@ -26,7 +26,7 @@ def convert(fraction):
         print("try again")
         return
 
-    return percentage
+    return percentage + 1
 
 
 def gauge(percentage):
