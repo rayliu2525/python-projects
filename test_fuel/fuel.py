@@ -1,5 +1,7 @@
-def main():
-    ...
+def main(fraction):
+    percentage = convert(fraction)
+    x = gauge(percentage)
+    print(x)
 
 
 def convert(fraction):
@@ -47,4 +49,4 @@ def gauge(percentage):
 
 
 if __name__ == "__main__":
-    main()
+    main("0/4")
