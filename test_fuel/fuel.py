@@ -9,13 +9,13 @@ def convert(fraction):
     except ValueError:
         print("try again")
         return
-        
+
     try:
         if float(x).is_integer() == False or float(y).is_integer() == False:
-            continue
+            pass
     except ValueError:
         print("try again")
-        continue
+        return
 
     x = int(x)
     y = int(y)
