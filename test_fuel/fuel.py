@@ -43,8 +43,7 @@ def gauge(percentage):
 
 
     else:
-        print(gas_percent)
-        break
+        return 
 
 
 if __name__ == "__main__":
