@@ -13,7 +13,7 @@ def convert(fraction):
 
     try:
         if float(x).is_integer() == False or float(y).is_integer() == False:
-            pass
+            return
     except ValueError:
         raise ValueError("try again")
 
