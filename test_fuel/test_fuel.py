@@ -1,8 +1,4 @@
-from fuel import convert
-from fuel import gauge
-
-def test_convert_full():
-    assert convert("3/4") == 75
+from fuel import convert, gauge
 
 def test_convert_full():
     assert convert("3/4") == 75
