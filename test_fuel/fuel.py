@@ -11,10 +11,7 @@ def convert(fraction):
     except ValueError:
         raise ValueError("try again")
 
-    try:
-        if float(x).is_integer() == False or float(y).is_integer() == False:
-            return
-    except ValueError:
+    if float(x).is_integer() == False or float(y).is_integer() == False:
         raise ValueError("try again")
 
     x = int(x)
@@ -46,4 +43,4 @@ def gauge(percentage):
 
 
 if __name__ == "__main__":
-    main("5.4/100")
+    main("100/100")
