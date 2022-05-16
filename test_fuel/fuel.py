@@ -43,7 +43,7 @@ def gauge(percentage):
 
 
     else:
-        return 
+        return f"{percentage}%"
 
 
 if __name__ == "__main__":
