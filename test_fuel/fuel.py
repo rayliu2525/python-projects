@@ -24,7 +24,7 @@ def convert(fraction):
         gas_percent = f"{round(x / y * 100)}%"
     except ZeroDivisionError:
         print("try again")
-        continue
+        return
 
 
 def gauge(percentage):
