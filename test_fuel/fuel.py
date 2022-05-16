@@ -21,14 +21,30 @@ def convert(fraction):
     y = int(y)
 
     try:
-        gas_percent = f"{round(x / y * 100)}%"
+        percentage = round(x / y * 100)
     except ZeroDivisionError:
         print("try again")
         return
 
+    if x > y:
+        print("try again")
+        return
+
+    return percentage
+
 
 def gauge(percentage):
-    ...
+    if percentage < 1:
+        print("E")
+        break
+
+    elif x / y * 100 > 99:
+        print("F")
+        break
+
+    else:
+        print(gas_percent)
+        break
 
 
 if __name__ == "__main__":
