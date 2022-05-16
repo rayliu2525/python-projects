@@ -43,4 +43,4 @@ def gauge(percentage):
 
 
 if __name__ == "__main__":
-    main("100/100")
+    main("100/0")
