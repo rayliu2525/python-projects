@@ -8,7 +8,8 @@ def convert(fraction):
 
     except ValueError:
         print("try again")
-
+        return
+        
     try:
         if float(x).is_integer() == False or float(y).is_integer() == False:
             continue
