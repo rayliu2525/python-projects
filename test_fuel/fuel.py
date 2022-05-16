@@ -35,12 +35,12 @@ def convert(fraction):
 
 def gauge(percentage):
     if percentage < 1:
-        print("E")
-        break
+        return "E"
 
-    elif x / y * 100 > 99:
-        print("F")
-        break
+
+    elif percentage > 99:
+        return "F"
+
 
     else:
         print(gas_percent)
