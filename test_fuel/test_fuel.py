@@ -11,3 +11,9 @@ def test_gauge_empty():
 
 def test_gauge_nomral():
     assert gauge(75) == "75%"
+
+def test_ZeroDivisionError():
+    try:
+        convert("3/0")
+    except: ZeroDivisionError as exc:
+        pytest.fail(exc, pytrace=True)
