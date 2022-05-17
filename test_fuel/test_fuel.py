@@ -18,4 +18,4 @@ def test_ZeroDivisionError():
     try:
         convert("3/0")
     except ZeroDivisionError as exc:
-        pytest.fail(exc, pytrace=True)
+        pytest.fail("hello")
