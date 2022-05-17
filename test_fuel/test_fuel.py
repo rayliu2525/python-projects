@@ -15,5 +15,5 @@ def test_gauge_nomral():
 def test_ZeroDivisionError():
     try:
         convert("3/0")
-    except: ZeroDivisionError as exc:
+    except ZeroDivisionError as exc:
         pytest.fail(exc, pytrace=True)
