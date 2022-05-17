@@ -4,5 +4,4 @@ def test_convert_full():
     assert convert("3/4") == 75
 
 def test_convert_full():
-    with pytest.raises(ZeroDivisionError) as info:
-        raise ZeroDivisionError("try again")
+    assert convert("4/4") == "E"
