@@ -30,7 +30,6 @@ def convert(fraction):
 
 
 def gauge(percentage):
-    percentage = int(percentage)
     if percentage < 1:
         return "E"
 
