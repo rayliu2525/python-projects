@@ -5,9 +5,3 @@ def test_convert_normal():
 
 def test_gauge_full():
     assert gauge("100") == "F"
-
-def test_gauge_empty():
-    assert gauge("0") == "E"
-
-def test_gauge_nomral():
-    assert gauge("75") == "75%"
