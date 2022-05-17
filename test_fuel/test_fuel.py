@@ -8,6 +8,3 @@ def test_gauge_full():
 
 def test_gauge_empty():
     assert gauge("0") == "E"
-
-def test_gauge_nomral():
-    assert gauge("75") == "75%"
