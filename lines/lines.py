@@ -13,4 +13,4 @@ if sys.argv < 2:
 elif sys.argv >2:
     print("Too many command-line arguments")
 
-else 
+elif sys.argv[1] == False or sys.argv[1] != .py
