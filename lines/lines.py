@@ -1,6 +1,6 @@
 import sys
 
-if len(sys.argv) == 2 and "".join(sys.argv[1][:-4:-1]) == ".py":
+if len(sys.argv) == 2 and "".join(sys.argv[1][-3:]) == ".py":
     with open(sys.argv[1]) as file:
         lines = [1 for line in file if (line.rstrip() and line[0] != "#")]
         sum_lines = sum(lines)
@@ -17,3 +17,5 @@ elif len(sys.argv) > 2:
 elif sys.argv[1] == False or "".join(sys.argv[1][:-4:-1]) != ".py":
     print("file does not exist or is the wrong type")
     sys.exit
+
+print(sys.argv[1][-3:-1])
