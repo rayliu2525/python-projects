@@ -1,6 +1,6 @@
 import sys
 
-if sys.argv == 2 and sys.argv[1][:-2:-1] == ".py":
+if sys.argv == 2 and sys.argv[1][:-4:-1] == ".py":
     with open(sys.argv[1]) as file:
         lines = [1 for line in file if (line.rstrip() and line[0] != "#")]
         sum_lines = sum(lines)
@@ -14,6 +14,6 @@ elif len(sys.argv) > 2:
     print("Too many command-line arguments")
     sys.exit
 
-elif sys.argv[1] == False or sys.argv[1][:-2:-1] != ".py":
+elif sys.argv[1] == False or sys.argv[1][:-4:-1] != ".py":
     print("file does not exist or is the wrong type")
     sys.exit
