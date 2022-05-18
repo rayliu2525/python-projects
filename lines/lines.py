@@ -12,5 +12,8 @@ if sys.argv < 2:
 
 elif sys.argv >2:
     print("Too many command-line arguments")
+    sys.exit
 
-elif sys.argv[1] == False or sys.argv[1] != .py
+elif sys.argv[1] == False or sys.argv[1][:-3:-1] != .py
+    print("file does not exist or is the wrong type")
+    sys.exit
