@@ -6,7 +6,7 @@ if len(sys.argv) == 2 and sys.argv[1][-3:] == ".py":
         sum_lines = sum(lines)
     print(sum_lines)
 
-if len(sys.argv) < 2:
+elif len(sys.argv) < 2:
     print("Too few command-line arguments")
     sys.exit()
 
