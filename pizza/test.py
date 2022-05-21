@@ -1,1 +1,1 @@
-print("hellohello"[:-5:-1])
+with open()
