@@ -5,8 +5,4 @@ with open("regular.csv") as regular:
     for l in regular:
         regular_list.append(l)
 
-    print(tabulate(regular, headers=["Regular Pizzar", "Small", "Large"], tablefmt="grid"))
-
-
-
-make list of lists from regular
+print(tabulate(regular_list, headers=["Regular Pizzar", "Small", "Large"], tablefmt="grid"))
