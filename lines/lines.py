@@ -8,12 +8,12 @@ if len(sys.argv) == 2 and sys.argv[1][-3:] == ".py":
 
 elif len(sys.argv) < 2:
     print("Too few command-line arguments")
-    sys.exit()
+    sys.exit(1)
 
 elif len(sys.argv) > 2:
     print("Too many command-line arguments")
-    sys.exit()
+    sys.exit(1)
 
 elif sys.argv[1] == False or sys.argv[1][-3:] != ".py":
     print("file does not exist or is the wrong type")
-    sys.exit()
+    sys.exit(1)
