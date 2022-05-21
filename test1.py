@@ -1,7 +1,7 @@
 import tabulate
 import csv
 
-with open("regular.csv") as regular:
-    regular = csv.reader(regular)
-    for row in regular:
+with open("regular.csv", "r") as regular:
+    csv_reader = csv.reader(regular)
+    for row in csv_reader:
         print(row)
