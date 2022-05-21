@@ -7,8 +7,8 @@ try:
         regular_list = []
         for row in csv_reader:
             regular_list.append(row)
-except:
-    print("wrong")
+except Exception as e:
+    print("e")
 finally:
     print("w/e")
 
