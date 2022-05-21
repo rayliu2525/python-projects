@@ -1,6 +1,6 @@
 import tabulate
 
-with open("regular.csv") as regular:
+with open("regular.csv", "r") as regular:
     regular_list = []
     for l in regular:
         regular_list.append(l)
