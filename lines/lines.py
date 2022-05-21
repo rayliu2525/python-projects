@@ -2,7 +2,7 @@ import sys
 
 if len(sys.argv) == 2 and sys.argv[1][-3:] == ".py":
     with open(sys.argv[1]) as file:
-        lines = [1 for line in file if (line.rstrip() and line.lstrip()[0] != "#")]
+        lines = [1 for line in file if (line.strip() and line.lstrip()[0] != "#")]
         sum_lines = sum(lines)
     print(sum_lines)
 
