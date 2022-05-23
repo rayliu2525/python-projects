@@ -12,8 +12,8 @@ try:
             regular_list = []
             for row in csv_reader:
                 regular_list.append(row)
-            regular_list.pop(0)
-            print(tabulate.tabulate(regular_list, headers=["Regular Pizza", "Small", "Large"], tablefmt="grid"))
+            header = regular_list.pop(0)
+            print(tabulate.tabulate(regular_list, headers=header, tablefmt="grid"))
 
 
 except:
