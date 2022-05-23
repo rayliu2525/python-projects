@@ -4,7 +4,7 @@ import csv
 import os.path
 
 try:
-    if (len(sys.argv) != 2 or sys.argv[1][-4:] != ".csv" or os.path.exists("regular.csv")):
+    if (len(sys.argv) != 2 or sys.argv[1][-4:] != ".csv" or os.path.exists("regular.csv") == False):
         sys.exit
     else:
         with open(sys.argv[1], "r") as regular:
