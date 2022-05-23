@@ -1,12 +1,11 @@
 import sys
 import tabulate
 import csv
+import os.path
 
 try:
-    if (len(sys.argv) != 2 or sys.argv[1][-4:] != ".csv"):
+    if (len(sys.argv) != 2 or sys.argv[1][-4:] != ".csv" or os.path.exists("regular.csv")):
         sys.exit
-    elif:
-        open(sys.argv[1])
     else:
         with open(sys.argv[1], "r") as regular:
             csv_reader = csv.reader(regular)
