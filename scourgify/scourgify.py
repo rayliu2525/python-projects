@@ -1,8 +1,11 @@
 import csv
 import sys
 
-if len(sys.argv) not 3:
-    sys.exit(1)
+if len(sys.argv) < 3:
+    sys.exit("Too few command-line arguments")
+if len(sys.argv) > 3:
+    sys.exit("Too many comannd-line arguments")
+
 
 with open(sys.argv[1]) as csv_file:
     csv_reader = csv.reader(csv_file)
