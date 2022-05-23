@@ -3,8 +3,10 @@ import tabulate
 import csv
 
 try:
-    if (len(sys.argv) != 2 or sys.argv[1][-4:] != ".csv" or open(sys.argv[1])):
+    if (len(sys.argv) != 2 or sys.argv[1][-4:] != ".csv"):
         sys.exit
+    elif:
+        open(sys.argv[1])
     else:
         with open(sys.argv[1], "r") as regular:
             csv_reader = csv.reader(regular)
