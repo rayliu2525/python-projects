@@ -1,6 +1,9 @@
 import csv
 import sys
 
+if len(sys.argv) not 3:
+    sys.exit(1)
+
 with open(sys.argv[1]) as csv_file:
     csv_reader = csv.reader(csv_file)
     next(csv_reader)
