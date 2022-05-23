@@ -6,7 +6,7 @@ try:
         sys.exit
     else:
         pizza_file_object = open(sys.argv[1])
-        
+        print(tabulate(pizza_file_object, headers, tablefmt="grid"))
 
 
 except:
