@@ -9,6 +9,4 @@ with open("regular.csv", "r") as regular:
     csv_reader = csv.reader(regular)
     for row in csv_reader:
         regular_list.append(row)
-
-with open(regular_list):
     print(tabulate(regular_list, headers=["Sicilian Pizza", "Small", "Large"], tablefmt="grid"))
