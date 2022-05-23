@@ -15,6 +15,7 @@ try:
             print(tabulate(regular_list, headers=["Sicilian Pizza", "Small", "Large"], tablefmt="grid"))
 
 
-except:
+except Exception as e:
+    print("e")
     sys.exit
 
