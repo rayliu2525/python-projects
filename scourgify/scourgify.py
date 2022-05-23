@@ -1,5 +1,6 @@
 import csv
 import sys
+import os
 
 if len(sys.argv) < 3:
     sys.exit("Too few command-line arguments")
