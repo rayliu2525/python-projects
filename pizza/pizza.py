@@ -11,7 +11,7 @@ try:
             csv_reader = csv.reader(regular)
             regular_list = []
             for row in csv_reader:
-                if csv_reader[row] > 0:
+                if csv_reader[row] != ["Regular Pizza", "Small", "Large"]:
                     regular_list.append(row)
             print(tabulate.tabulate(regular_list, headers=["Regular Pizza", "Small", "Large"], tablefmt="grid"))
 
