@@ -6,7 +6,7 @@ with open(sys.argv[1]) as csv_file:
     next(csv_reader)
 
     with open(sys.argv[1], w) as csv_file:
-        csv_dictwriter = csv.D
+        csv_dictwriter = csv.DictWriter
 
     for row in csv_reader:
         first, last = split(row[0], ", ")
