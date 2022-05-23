@@ -1,10 +1,9 @@
+import sys
 import tabulate
 
-with open("regular.csv", "r") as regular:
-    regular_list = []
-    for l in regular:
-        regular_list.append(l)
-
-print(regular_list)
-
-print(tabulate(regular_list, headers=["Regular Pizzar", "Small", "Large"], tablefmt="grid"))
+try:
+    if (len(sys.argv) != 2 or sys.argv[1][-4:] != ".csv" or open(sys.argv[1]):
+        sys.exit
+    else:
+        pizza_file_object = open(sys.argv[1])
+        print(pizza_file_object)
