@@ -16,7 +16,7 @@ try:
 
 
 
-        print(tabulate(pizza_file_object, headers=["Sicilian Pizza", "Small", "Large"], tablefmt="grid"))
+        print(tabulate(regular_list, headers=["Sicilian Pizza", "Small", "Large"], tablefmt="grid"))
 
 
 except:
