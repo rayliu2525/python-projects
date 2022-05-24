@@ -6,7 +6,7 @@ if len(sys.argv) < 3:
     sys.exit("Too few command-line arguments")
 if len(sys.argv) > 3:
     sys.exit("Too many comannd-line arguments")
-if not os.access(sys.argv[1]):
+if not os.access(sys.argv[1], os.R_OK):
     sys.exit(f"Could not read {sys.argv[1]}")
 
 
