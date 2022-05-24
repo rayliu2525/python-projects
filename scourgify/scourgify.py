@@ -16,6 +16,7 @@ with open(sys.argv[1]) as csv_file:
 
     with open(sys.argv[2], "w") as csv_file:
         csv_dictwriter = csv.DictWriter(csv_file, fieldnames=["first", "last", "house"])
+        csv_dictwriter.writeheader()
         for row in csv_reader:
             last, first = row[0].split(", ")
             csv_dictwriter.writerow({
