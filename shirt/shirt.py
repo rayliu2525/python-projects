@@ -6,7 +6,7 @@ if len(sys.argv) < 3:
     sys.exit("Too few command-line arguments")
 elif len(sys.argv) > 3:
     sys.exit("Too many command-line arguments")
-elif (os.splitext(lower(sys.argv[1]))[1] and os.splitext(lower(sys.argv[2]))[1]) not (".jpg" or ".jpeg" or ".png"):
+elif os.splitext(lower(sys.argv[1]))[1] not in (".jpg", ".jpeg", ".png") and os.splitext(lower(sys.argv[2]))[1]) not in (".jpg", ".jpeg", ".png"):
     sys.exit("Incorrect extensions")
 elif os.splitext(lower(sys.argv[1]))[1] != os.splitext(lower(sys.argv[2]))[1]:
     sys.exit("Extensions are not the same")
