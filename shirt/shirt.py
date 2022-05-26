@@ -16,4 +16,4 @@ elif not os.path.exists(sys.argv[1]):
 with PIL.image.open(sys.argv[1]) as input_image:
     PIL.ImageOps.fit(input_image, sys.argv[2].size)
     overlay_image = input_image.paste(shirt.png)
-    PIL.image.save(sys.argv[2])
+    overlay_image.save(sys.argv[2])
