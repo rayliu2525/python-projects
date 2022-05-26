@@ -1,6 +1,6 @@
 import sys
 import os
-from PIL import image
+import PIL
 
 if len(sys.argv) < 3:
     sys.exit("Too few command-line arguments")
@@ -13,5 +13,5 @@ elif os.splitext(lower(sys.argv[1]))[1] != os.splitext(lower(sys.argv[2]))[1]:
 elif not os.path.exists(sys.argv[1]):
     sys.exit("Input file does not exist!")
 
-with image.open(sys.argv[1]) as input_image
-    
+with PIL.image.open(sys.argv[1]) as input_image:
+    PIL.ImageOps.fit(input_image, sys.argv[2].size)
