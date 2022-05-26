@@ -5,4 +5,5 @@ if len(sys.argv) < 3:
 elif len(sys.argv) > 3:
     sys.exit("Too many command-line arguments")
 elif (lower(sys.argv[1]) and lower(sys.argv[2])) not (*.jpg or *.jpeg or *.png):
-    sys.exit()
+    sys.exit("Incorrect extensions")
+elif 
