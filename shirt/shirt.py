@@ -15,4 +15,4 @@ elif not os.path.exists(sys.argv[1]):
 
 with PIL.image.open(sys.argv[1]) as input_image:
     PIL.ImageOps.fit(input_image, sys.argv[2].size)
-      = input_image.paste(shirt.png)
+    input_image.paste(shirt.png)
