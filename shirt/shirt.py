@@ -13,4 +13,4 @@ elif os.splitext(lower(sys.argv[1]))[1] != os.splitext(lower(sys.argv[2]))[1]:
 elif not os.path.exists(sys.argv[1]):
     sys.exit("Input file does not exist!")
 
-with image.open()
+with image.open(sys.argv[1])
