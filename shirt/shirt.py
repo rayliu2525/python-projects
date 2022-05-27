@@ -17,5 +17,5 @@ elif not os.path.exists(sys.argv[1]):
 with Image.open(sys.argv[1]) as input_image:
     with Image.open("shirt.png") as shirt_image:
         input_image = ImageOps.fit(input_image, shirt_image.size)
-        input_image.paste(shirt_image)
+        input_image.paste(shirt_image, mask=shirt_image)
         input_image.save(sys.argv[2])
