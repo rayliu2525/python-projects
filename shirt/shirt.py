@@ -17,5 +17,5 @@ elif not os.path.exists(sys.argv[1]):
 with Image.open(sys.argv[1]) as input_image:
     with Image.open("shirt.png") as shirt_image:
         ImageOps.fit(input_image, shirt_image.size)
-        overlay_image = Image.Image.paste(sys.argv[1], mask="shirt.png")
+        overlay_image = Image.Image.paste(sys.argv[1], mask="shirt.png")#wrong
         overlay_image.save(sys.argv[2])
