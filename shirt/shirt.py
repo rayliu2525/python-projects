@@ -1,6 +1,7 @@
 import sys
 import os
 from PIL import Image
+from PIL import ImageOps
 
 if len(sys.argv) < 3:
     sys.exit("Too few command-line arguments")
@@ -13,7 +14,8 @@ elif os.path.splitext(sys.argv[1])[1].lower() != os.path.splitext(sys.argv[2])[1
 elif not os.path.exists(sys.argv[1]):
     sys.exit("Input file does not exist!")
 
-with PIL.Image.open(sys.argv[1]) as input_image:
-    PIL.ImageOps.fit(input_image, sys.argv[2].size)
-    overlay_image = input_image.paste(shirt.png)
-    overlay_image.save(sys.argv[2])
+with Image.open(sys.argv[1]) as input_image:
+    with Image.open(shirt.png) as shirt_image:
+        ImageOps.fit(input_image, shirt_image.size)
+        overlay_image = input_image.paste(shirt.png)
+        overlay_image.save(sys.argv[2])
