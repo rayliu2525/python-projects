@@ -2,4 +2,4 @@ import re
 import sys
 
 def test_valid():
-    assert validate()
+    assert validate("1.1.1.1") == True
