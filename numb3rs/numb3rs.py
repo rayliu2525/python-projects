@@ -8,7 +8,7 @@ def main():
 
 def validate(ip):
     ip_address = input("IPv4 Address: ")
-    if re.search("^[0-9]|1[0-9]|       $", ip_address)
+    if re.search("^[0-9]|1[0-9]|2[]       $", ip_address)
 
 
 ...
