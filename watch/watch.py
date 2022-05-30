@@ -7,7 +7,7 @@ def main():
 
 
 def parse(s):
-    
+    match = re.search
 
 
 ...
