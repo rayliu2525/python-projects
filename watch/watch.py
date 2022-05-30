@@ -18,6 +18,7 @@ def parse(s):
             short_URL = URL.replace("be.com/embed", ".be")
             return short_URL
         else:
+            short_URL = URL.replace("be.com/embed", ".be")
             short_URL = short_URL.replace("http", "https")
             return short_URL
     else:
