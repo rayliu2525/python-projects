@@ -9,7 +9,7 @@ def main():
 def parse(s):
     match = re.search("src=", s)
     URL_start_index = match.end() + 1
-    URL_end_index = s.find("\"", URL_start_index + 1)
+    URL_end_index = s.find("\"", URL_start_index)
     URL = s[URL_start_index:URL_end_index]
     short_URL = s.replace("be.com/embed", ".be")
     return short_URL
