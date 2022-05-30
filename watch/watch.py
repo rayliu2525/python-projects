@@ -8,7 +8,8 @@ def main():
 
 def parse(s):
     match = re.search("src=", s)
-    
+    URL_start_index = match.end() + 1
+    s.find(", )
 
 
 
