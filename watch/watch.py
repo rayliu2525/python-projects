@@ -7,7 +7,8 @@ def main():
 
 
 def parse(s):
-    match = re.search("src=")
+    match = re.search("src=", s)
+    
 
 
 ...
