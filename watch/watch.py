@@ -9,7 +9,7 @@ def main():
 def parse(s):
     match = re.search("src=", s)
     URL_start_index = match.end() + 1
-    s.find(", )
+    s.find("\"", URL_start_index + 1)
 
 
 
