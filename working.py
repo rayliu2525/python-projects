@@ -7,7 +7,7 @@ def main():
 
 
 def convert(s):
-    if re.search("(0-9|))
+    if re.search("([0-9]1[0-2]|))
 
 
     else:
