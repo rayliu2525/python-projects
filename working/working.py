@@ -25,6 +25,9 @@ def convert(s):
             l_time_24 = str(int(l_time_24) + 12)
             end_time_24 = l_time_24 + ":" + r_time_24
 
+        time_range_24 = beg_time_24 + " to " + end_time_24
+        return time_range_24
+
 
     else:
         raise ValueError
