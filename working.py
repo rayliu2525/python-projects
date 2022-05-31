@@ -7,7 +7,11 @@ def main():
 
 
 def convert(s):
-    if re.search
+    if re.search()
+
+
+    else:
+        raise ValueError
 
 
 ...
