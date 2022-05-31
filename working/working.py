@@ -12,7 +12,7 @@ def convert(s):
         if re.search("^([1-9]|1[0-2]): (A|P)M)$", beg_time) and re.search("^([1-9]|1[0-2]): (A|P)M)$", end_time):
             beg_time = f"{beg_time}:00"
             end_time = f"{end_time}:00"
-    
+        
 
 
     else:
