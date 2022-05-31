@@ -16,7 +16,10 @@ def convert(s):
             end_time = l_end_time + ":00 " + r_end_time"
 
         if PM in beg_time
-            time_24 = 
+            time_24 =
+
+        if PM in end_time
+            time_24 =
 
 
     else:
