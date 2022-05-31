@@ -16,6 +16,7 @@ def convert(s):
             end_time = l_end_time + ":00 " + r_end_time"
 
         if PM in beg_time
+            l_time_24 = beg_time.split(":")[0]
             time_24 =
 
         if PM in end_time
