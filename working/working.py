@@ -18,12 +18,12 @@ def convert(s):
         if "PM" in beg_time:
             l_time_24, r_time_24 = beg_time.split(":")
             l_time_24 = str(int(l_time_24) + 12)
-            beg_time_24 = l_time_24 + ":" + r_time_24
+            beg_time = l_time_24 + ":" + r_time_24[0:2]
 
         if "PM" in end_time:
             l_time_24, r_time_24 = end_time.split(":")
             l_time_24 = str(int(l_time_24) + 12)
-            end_time_24 = l_time_24 + ":" + r_time_24
+            end_time = l_time_24 + ":" + r_time_24[0:2]
 
         time_range_24 = beg_time_24 + " to " + end_time_24
         return time_range_24
