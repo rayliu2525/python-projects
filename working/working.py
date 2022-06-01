@@ -13,14 +13,14 @@ def convert(s):
             l_beg_time, r_beg_time = beg_time.split(" ")
             beg_time = l_beg_time + ":00 " + r_beg_time
             l_end_time, r_end_time = end_time.split(" ")
-            end_time = l_end_time + ":00 " + r_end_time"
+            end_time = l_end_time + ":00 " + r_end_time
 
-        if PM in beg_time
+        if PM in beg_time:
             l_time_24, r_time_24 = beg_time.split(":")
             l_time_24 = str(int(l_time_24) + 12)
             beg_time_24 = l_time_24 + ":" + r_time_24
 
-        if PM in end_time
+        if PM in end_time:
             l_time_24, r_time_24 = end_time.split(":")
             l_time_24 = str(int(l_time_24) + 12)
             end_time_24 = l_time_24 + ":" + r_time_24
