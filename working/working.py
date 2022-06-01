@@ -29,12 +29,12 @@ def convert(s):
         if len(beg_time) == 7:
             beg_time = "0" + beg_time
         if beg_time[0:2] == "12" and "AM" in beg_time:
-            beg_time.replace("12", "00", 1)
+            beg_time = beg_time.replace("12", "00", 1)
 
         if len(end_time) == 7:
             end_time = "0" + end_time
         if end_time[0:2] == "12" and "AM" in end_time:
-            end_time.replace("12", "00", 1)
+            end_time = end_time.replace("12", "00", 1)
 
 
         beg_time = beg_time.replace(" AM", "")
