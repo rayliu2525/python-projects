@@ -32,7 +32,7 @@ def convert(s):
             beg_time.replace("12", "00", 1)
 
         if len(end_time) == 7:
-            end_time = "0" + beg_time
+            end_time = "0" + end_time
         if end_time[0:2] == "12" and "AM" in end_time:
             end_time.replace("12", "00", 1)
 
