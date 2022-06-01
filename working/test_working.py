@@ -1,4 +1,5 @@
 from working import convert
+import pytest
 
 def test_00_convert():
     assert convert("5:00 AM to 9:00 PM") == "05:00 to 21:00"
@@ -8,3 +9,7 @@ def test_nozero_convert():
 
 def test_both24_convert():
     assert convert("9:00 PM to 11:00 PM") == "21:00 to 23:00"
+
+def test_noto_convert():
+    with pytest.raises(ValueError):
+        convert("9:00 PM - 11:00 PM")
