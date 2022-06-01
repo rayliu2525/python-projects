@@ -4,7 +4,6 @@ import sys
 
 def main():
     print(convert(input("Hours: ")))
-    sys.exit()
 
 
 def convert(s):
