@@ -11,19 +11,19 @@ def convert(s):
         beg_time, end_time = s.split(" to ")
         if re.search("^([1-9]|1[0-2]) (A|P)M$", beg_time) and re.search("^([1-9]|1[0-2]) (A|P)M$", end_time):
             l_beg_time, r_beg_time = beg_time.split(" ")
-            beg_time = l_beg_time + ":00 " + r_beg_time
+            beg_time = l_beg_time + ":00 "
             l_end_time, r_end_time = end_time.split(" ")
-            end_time = l_end_time + ":00 " + r_end_time
+            end_time = l_end_time + ":00 "
 
         if "PM" in beg_time:
             l_time_24, r_time_24 = beg_time.split(":")
             l_time_24 = str(int(l_time_24) + 12)
-            beg_time_24 = l_time_24 + ":" + r_time_24[0:2]
+            beg_time_24 = l_time_24 + ":" + r_time_24
 
         if "PM" in end_time:
             l_time_24, r_time_24 = end_time.split(":")
             l_time_24 = str(int(l_time_24) + 12)
-            end_time_24 = l_time_24 + ":" + r_time_24[0:2]
+            end_time_24 = l_time_24 + ":" + r_time_24
 
         time_range_24 = beg_time_24 + " to " + end_time_24
         return time_range_24
