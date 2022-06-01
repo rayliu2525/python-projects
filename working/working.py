@@ -32,7 +32,9 @@ def convert(s):
         end_time = end_time.replace(" AM", "")
         end_time = end_time.replace(" PM", "")
 
-        if len(beg_time) == 
+        if len(beg_time) == 4:
+            beg_time = "0" + beg_time
+        
 
         time_range_24 = beg_time + " to " + end_time
         return time_range_24
