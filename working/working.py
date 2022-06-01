@@ -8,8 +8,10 @@ def main():
 
 def convert(s):
     if re.search("^([1-9]|1[0-2])|(([0-9]|1[0-2]):[0-5][0-9]) (A|P)M to ([1-9]|1[0-2])|(([0-9]|1[0-2]):[0-5][0-9]) (A|P)M$", s):
+        s.replace(" AM", "")
+        s.replace(" PM", "")
         beg_time, end_time = s.split(" to ")
-        
+
         if re.search("^([1-9]|1[0-2]) (A|P)M$", beg_time) and re.search("^([1-9]|1[0-2]) (A|P)M$", end_time):
             l_beg_time, r_beg_time = beg_time.split(" ")
             beg_time = l_beg_time + ":00"
