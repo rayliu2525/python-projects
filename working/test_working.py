@@ -8,3 +8,6 @@ def test_nozero_convert():
 
 def test_both24_convert():
     assert convert("9:00 PM to 11:00 PM") == "21:00 to 23:00"
+
+def test_both24_convert():
+    assert convert("9:00 PM - 11:00 PM") == "21:00 to 23:00"
