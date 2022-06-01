@@ -26,15 +26,15 @@ def convert(s):
             l_time_24 = str(int(l_time_24) + 12)
             end_time = l_time_24 + ":" + r_time_24
 
+        if len(beg_time) == 7:
+            beg_time = "0" + beg_time
+
         beg_time = beg_time.replace(" AM", "")
         beg_time = beg_time.replace(" PM", "")
 
         end_time = end_time.replace(" AM", "")
         end_time = end_time.replace(" PM", "")
 
-        if len(beg_time) == 4:
-            beg_time = "0" + beg_time
-        
 
         time_range_24 = beg_time + " to " + end_time
         return time_range_24
