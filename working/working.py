@@ -16,12 +16,12 @@ def convert(s):
             l_end_time, r_end_time = end_time.split(" ")
             end_time = l_end_time + ":00 " + r_end_time
 
-        if "PM" in beg_time and beg_time[0:2] not "12":
+        if "PM" in beg_time and beg_time[0:2] != "12":
             l_time_24, r_time_24 = beg_time.split(":")
             l_time_24 = str(int(l_time_24) + 12)
             beg_time = l_time_24 + ":" + r_time_24
 
-        if "PM" in end_time and end_time[0:2] not "12":
+        if "PM" in end_time and end_time[0:2] != "12":
             l_time_24, r_time_24 = end_time.split(":")
             l_time_24 = str(int(l_time_24) + 12)
             end_time = l_time_24 + ":" + r_time_24
