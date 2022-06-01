@@ -28,6 +28,8 @@ def convert(s):
 
         if len(beg_time) == 7:
             beg_time = "0" + beg_time
+        if beg_time[0:2] == "12" and "AM" in beg_time:
+            
 
         beg_time = beg_time.replace(" AM", "")
         beg_time = beg_time.replace(" PM", "")
