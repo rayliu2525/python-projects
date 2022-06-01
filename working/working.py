@@ -25,7 +25,7 @@ def convert(s):
             l_time_24 = str(int(l_time_24) + 12)
             end_time = l_time_24 + ":" + r_time_24[0:2]
 
-        time_range_24 = beg_time_24 + " to " + end_time_24
+        time_range_24 = beg_time + " to " + end_time
         return time_range_24
 
 
