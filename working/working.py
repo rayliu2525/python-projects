@@ -7,7 +7,7 @@ def main():
 
 
 def convert(s):
-    if re.search("^(\b[1-9]|1[0-2]\b)|((\b[0-9]|1[0-2]\b):[0-5][0-9]) (A|P)M to (\b[1-9]|1[0-2]\b)|((\b[0-9]|1[0-2]\b):[0-5][0-9]) (A|P)M$", s):
+    if re.search("^(\b[1-9]|1[0-2]\b)|((\b[0-9]|1[0-2]):[0-5][0-9]\b) (A|P)M to (\b[1-9]|1[0-2]\b)|((\b[0-9]|1[0-2]):[0-5][0-9]\b) (A|P)M$", s):
         beg_time, end_time = s.split(" to ")
 
         if re.search("^([1-9]|1[0-2]) (A|P)M$", beg_time) and re.search("^([1-9]|1[0-2]) (A|P)M$", end_time):
