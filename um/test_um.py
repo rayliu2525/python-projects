@@ -8,3 +8,6 @@ def test_substring_um():
 
 def test_isolated_um():
     assert count("um") == 1
+
+def test_isolated_um():
+    assert count("um UM") == 2
