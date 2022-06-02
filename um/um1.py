@@ -8,7 +8,7 @@ def main():
 
 def count(s):
 
-    matches = re.finditer("[^a-zA-Z]ums[^a-zA-Z]", s, re.IGNORECASE)
+    matches = re.finditer("[^a-zA-Z]um[^a-zA-Z]", s, re.IGNORECASE)
     matches1 = re.finditer("ums[^a-zA-Z]", s, re.IGNORECASE)
 
 
