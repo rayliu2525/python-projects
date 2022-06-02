@@ -7,4 +7,4 @@ def test_substring_um():
     assert count("hello, hum, um, hello") == 1
 
 def test_isolated_um():
-    assert count("hello, hum um um hello") == 2
+    assert count("hello, hum uum m hello") == 2
