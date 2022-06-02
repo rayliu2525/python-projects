@@ -7,7 +7,7 @@ def main():
 
 
 def count(s):
-    matches = re.finditer("[^a-zA-Z]um[^a-zA-Z]", s, re.IGNORECASE)
+    matches = re.finditer("\bum\b", s, re.IGNORECASE)
     matches = tuple(matches)
     return len(matches)
 
