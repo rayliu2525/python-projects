@@ -7,7 +7,7 @@ def main():
 
 
 def count(s):
-    matches = re.finditer("um", s, re.IGNORECASE)
+    matches = re.finditer("(^)um(^)", s, re.IGNORECASE)
 
 
 ...
