@@ -6,4 +6,4 @@ def count(s):
     print(matches)
     print(matches1)
 
-count("hello, hum um um hello")
+count("um")
