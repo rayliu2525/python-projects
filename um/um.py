@@ -7,7 +7,7 @@ def main():
 
 
 def count(s):
-    matches = re.finditer("\bum\b", s, re.IGNORECASE)
+    matches = re.finditer(r"\bum\b", s, re.IGNORECASE)
     matches = tuple(matches)
     return len(matches)
 
