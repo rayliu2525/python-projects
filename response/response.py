@@ -9,4 +9,5 @@ def validate(s):
     else:
         return "Invalid"
 
-if __name__
+if __name__ == "__main__":
+    main()
