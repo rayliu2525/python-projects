@@ -1,4 +1,4 @@
-from validator-collection import validators
+from validator_collection import validators
 
 def main():
     print(validate(input("Type Email: ")))
@@ -8,3 +8,5 @@ def validate(s):
         return "Valid"
     else:
         return "Invalid"
+
+if __name__
