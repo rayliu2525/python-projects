@@ -3,5 +3,5 @@ from validator-collection import validators
 def main():
     print(validate(input("Type Email: ")))
 
-def validate():
-    
+def validate(s):
+    if validate.email()
