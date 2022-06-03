@@ -8,4 +8,3 @@ def validate(s):
         return "Valid"
     else:
         return "Invalid"
-
