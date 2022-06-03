@@ -10,7 +10,7 @@ def validate(s):
         else:
             return "Invalid"
     except:
-        print("Invalid")
+        return ("Invalid")
 
 if __name__ == "__main__":
     main()
