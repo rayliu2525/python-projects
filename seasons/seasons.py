@@ -17,7 +17,8 @@ def main():
     delta = current_date - dob
     minutes = round(delta.total_second() * 60)
 
-    inflect.engine()
+    engine_object = inflect.engine()
+     = engine_object.number_to_words(minutes)
 
 if __name__ == "__main__":
     main()
