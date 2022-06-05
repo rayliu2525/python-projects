@@ -13,5 +13,7 @@ def main():
     dob = date(year, month, day)
     current_date = date.today()
 
+    delta = current_date - dob
+
 if __name__ == "__main__":
     main()
