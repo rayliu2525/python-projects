@@ -6,7 +6,7 @@ import inflect
 
 def main():
     dob_input = input("Date of Birth: ")
-    if re.search("^[1-9]{4}-[1-9]{2}-[1-9]{2}$", dob_input) == None:
+    if re.search("^[0-9]{4}-[0-9]{2}-[0-9]{2}$", dob_input) == None:
         sys.exit("Invaid date")
 
     year, month, day = dob_input.split("-")
