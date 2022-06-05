@@ -18,7 +18,9 @@ def main():
     minutes = round(delta.total_second() * 60)
 
     engine_object = inflect.engine()
-     = engine_object.number_to_words(minutes)
+    minutes_words = engine_object.number_to_words(minutes)
+
+    print()
 
 if __name__ == "__main__":
     main()
