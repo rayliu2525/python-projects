@@ -18,7 +18,7 @@ def main():
     current_date = date.today()
 
     delta = current_date - dob
-    minutes = round(delta.total_seconds() * 60)
+    minutes = round(delta.total_seconds() / 60)
 
     engine_object = inflect.engine()
     minutes_words = engine_object.number_to_words(minutes)
