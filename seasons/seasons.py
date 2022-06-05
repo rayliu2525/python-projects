@@ -20,7 +20,7 @@ def main():
     engine_object = inflect.engine()
     minutes_words = engine_object.number_to_words(minutes)
 
-    print()
+    print(f"{minutes_words} minutes")
 
 if __name__ == "__main__":
     main()
