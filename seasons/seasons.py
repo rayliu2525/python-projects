@@ -5,11 +5,13 @@ import inflect
 
 
 def main():
-    dob_input = input("Date of Birth: ")
-    if re.search("^[0-9]{4}-[0-9]{2}-[0-9]{2}$", dob_input) == None:
+    life_minutes(input("Date of Birth: "))
+
+def life_minutes(s):
+    if re.search("^[0-9]{4}-[0-9]{2}-[0-9]{2}$", s) == None:
         sys.exit("Invaid date")
 
-    year, month, day = dob_input.split("-")
+    year, month, day = s.split("-")
     year = int(year)
     month = int(month)
     day = int(day)
