@@ -17,5 +17,7 @@ def main():
     delta = current_date - dob
     minutes = round(delta.total_second() * 60)
 
+    inflect.engine()
+
 if __name__ == "__main__":
     main()
