@@ -14,6 +14,7 @@ def main():
     current_date = date.today()
 
     delta = current_date - dob
+     = delta.total_second() * 60
 
 if __name__ == "__main__":
     main()
