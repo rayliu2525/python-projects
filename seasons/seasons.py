@@ -9,7 +9,7 @@ def main():
 
 def life_minutes(s):
     if re.search("^[0-9]{4}-[0-9]{2}-[0-9]{2}$", s) == None:
-        sys.exit("Invaid date")
+        sys.exit()
 
     year, month, day = s.split("-")
     year = int(year)
