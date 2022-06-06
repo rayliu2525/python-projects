@@ -5,7 +5,7 @@ import inflect
 
 
 def main():
-    life_minutes(input("Date of Birth: "))
+    print(life_minutes(input("Date of Birth: ")))
 
 def life_minutes(s):
     if re.search("^[0-9]{4}-[0-9]{2}-[0-9]{2}$", s) == None:
@@ -25,7 +25,7 @@ def life_minutes(s):
     engine_object = inflect.engine()
     minutes_words = engine_object.number_to_words(minutes)
 
-    print(f"{minutes_words} minutes".capitalize().replace(" and", ""))
+    return f"{minutes_words} minutes".capitalize().replace(" and", "")
 
 if __name__ == "__main__":
     main()
