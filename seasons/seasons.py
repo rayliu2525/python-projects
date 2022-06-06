@@ -6,6 +6,7 @@ import inflect
 
 def main():
     life_minutes(input("Date of Birth: "))
+    sys.exit(0)
 
 def life_minutes(s):
     if re.search("^[0-9]{4}-[0-9]{2}-[0-9]{2}$", s) == None:
