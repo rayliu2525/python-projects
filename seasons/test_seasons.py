@@ -5,3 +5,5 @@ def normal_life_minutes():
 
 def invalid_life_minutes():
     assert life_minutes("1992-January-25") == "Invalid date"
+
+sys.exit(0)
