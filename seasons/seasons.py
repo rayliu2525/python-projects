@@ -29,3 +29,4 @@ def life_minutes(s):
 
 if __name__ == "__main__":
     main()
+    sys.exit(0)
