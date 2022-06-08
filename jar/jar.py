@@ -3,6 +3,7 @@ class Jar:
         self.capacity = capacity
         if is_integer(self.capacity) == False or self.capacity < 0:
             raise ValueErrors
+        self.cookies = 0
 
     def __str__(self):
         ...
