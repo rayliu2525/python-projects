@@ -9,7 +9,9 @@ class Jar:
         ...
 
     def deposit(self, n):
-        ...
+        self.cookies += n
+        if n > self.capacity:
+            raise ValueError
 
     def withdraw(self, n):
         ...
