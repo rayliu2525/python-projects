@@ -6,7 +6,7 @@ class Jar:
         self.cookies = 0
 
     def __str__(self):
-        return f'{self.size} * 🍪'
+        return {self.size} * "🍪"
 
     def deposit(self, n):
         self.cookies += n
@@ -25,3 +25,7 @@ class Jar:
     @property
     def size(self):
         return self.cookies
+
+jar = Jar()
+jar.deposit(2)
+print(jar)
