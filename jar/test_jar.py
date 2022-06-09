@@ -31,4 +31,4 @@ def test_withdraw():
     jar.withdraw(2)
     assert jar.size == 8
     with pytest.raises(ValueError):
-        jar.withdraw(9)
+        jar.withdraw(17)
