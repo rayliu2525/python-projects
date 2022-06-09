@@ -1,8 +1,9 @@
 from jar import Jar
+import pytest
 
 
 def test_init():
-    jar = Jar(1):
+    jar = Jar(1)
     assert jar.capacity == 1
 
 
@@ -18,8 +19,16 @@ def test_str():
 def test_deposit():
     jar = Jar()
     jar.deposit(2)
-    assert 
+    assert jar.size == 2
+    jar = Jar()
+    with pytest.raises(ValueError):
+        jar.deposit(13)
 
 
 def test_withdraw():
-    ...
+    jar = Jar()
+    jar.deposit(10)
+    jar.withdraw(2)
+    assert jar.size == 8
+    with pytest.raises(ValueError):
+        jar.withdraw(9)
