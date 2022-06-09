@@ -9,9 +9,9 @@ class Jar:
         return self.size * "🍪"
 
     def deposit(self, n):
-        self.cookies += n
-        if self._capacity < n:
+        if self._capacity < (self.cookies + n):
             raise ValueError
+        self.cookies += n
 
     def withdraw(self, n):
         self.cookies -= n
