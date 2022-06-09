@@ -1,7 +1,7 @@
 class Jar:
     def __init__(self, capacity=12):
         self._capacity = capacity
-        if not is_integer(self._capacity) or self._capacity < 0:
+        if not self._capacity.is_integer() or self._capacity < 0:
             raise ValueErrors
         self.cookies = 0
 
