@@ -14,7 +14,8 @@ class Jar:
             raise ValueError
 
     def withdraw(self, n):
-        ...
+        self.cookies -+ n
+        
 
     @property
     def capacity(self):
