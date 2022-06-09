@@ -10,12 +10,12 @@ class Jar:
 
     def deposit(self, n):
         self.cookies += n
-        if n > self._capacity:
+        if self._capacity < n:
             raise ValueError
 
     def withdraw(self, n):
         self.cookies -= n
-        if n < 0:
+        if self.cookies < n:
             raise ValueError
 
     @property
