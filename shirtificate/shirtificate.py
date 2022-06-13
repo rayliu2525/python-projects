@@ -1,1 +1,3 @@
-import 
+import fpdf
+
+name = input("Name: ")
