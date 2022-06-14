@@ -4,4 +4,4 @@ name = input("Name: ")
 
 pdf = FPDF(orientation="P", unit="mm", format="A4")
 pdf.add_page()
-pdf.cell()
+pdf.cell(txt="CS50 Shirtificate", align=C)
