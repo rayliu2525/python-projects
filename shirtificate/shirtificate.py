@@ -8,5 +8,5 @@ pdf.set_font(family="Courier", size=40, style="B")
 pdf.cell(txt="CS50 Shirtificate", align="C",  w=0, h=30)
 pdf.image("shirtificate.png", x=0, y=50)
 pdf.set_text_color(r=255, g=255, b=255)
-pdf.
+pdf.text(x=40, y=160, txt=f"{name} took CS50")
 pdf.output("hello.pdf")
