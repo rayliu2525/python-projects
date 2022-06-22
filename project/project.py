@@ -8,6 +8,7 @@ def main():
         sys.exit("Not a valid answer")
     try:
         interest_rate = input("What interest rate do you expect? ")
+        
         interest_rate = convert(interest_rate)
     except:
         sys.exit("Not a valid answer")
@@ -24,4 +25,4 @@ def convert(x):
     return int(x)
 
 def end_balance(sb, ir, l)
-    sb * 
+    sb *
