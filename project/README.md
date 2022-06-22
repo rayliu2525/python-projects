@@ -1,4 +1,6 @@
 # YOUR PROJECT TITLE
+
     #### Video Demo:  <URL HERE>
-    #### Description:
-    TODO
+
+    Description:
+    Calculates bank account amount after x years.
