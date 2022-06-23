@@ -25,4 +25,4 @@ def convert(x):
     return int(x)
 
 def end_balance(sb, ir, l)
-    sb *
+    end_balance = sb + (sb * ir * l)
