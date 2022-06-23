@@ -25,7 +25,7 @@ def main():
 def convert(x):
     return int(x)
 
-def end_balance(sb, ir, l)
+def end_balance(sb, ir, l):
     final_amount = sb + (sb * ir * l)
     return final_amount
 
