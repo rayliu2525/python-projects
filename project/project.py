@@ -9,7 +9,7 @@ def main():
     try:
         interest_rate = input("What interest rate do you expect? ")
         interest_rate = interest_rate.replace("%", "")
-        interest_rate = int(convert(interest_rate)/100)
+        interest_rate = convert(interest_rate)/100
     except:
         sys.exit("Not a valid answer")
     try:
@@ -30,7 +30,7 @@ def end_balance(sb, ir, l):
     return final_amount
 
 def final_statement(final):
-    return f"You have {final}!"
+    return f"You have {int(final)}!"
 
 if __name__ == "__main__":
     main()
