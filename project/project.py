@@ -18,6 +18,7 @@ def main():
     except:
         sys.exit("Not a vlid answer")
     final_amount = end_balance(starting_balance, interest_rate, length)
+    final_statement(final_amount)
 
 
 
@@ -28,5 +29,6 @@ def end_balance(sb, ir, l)
     final_amount = sb + (sb * ir * l)
     return final_amount
 
-def final_statement(final_amount):
-    
+def final_statement(final):
+    return f"You have {final}!"
+
