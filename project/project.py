@@ -18,7 +18,7 @@ def main():
     except:
         sys.exit("Not a vlid answer")
     final_amount = end_balance(starting_balance, interest_rate, length)
-    final_statement(final_amount)
+    print(final_statement(final_amount))
 
 
 
