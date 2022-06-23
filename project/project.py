@@ -32,3 +32,5 @@ def end_balance(sb, ir, l):
 def final_statement(final):
     return f"You have {final}!"
 
+if __name__ == "__main__":
+    main()
