@@ -17,7 +17,7 @@ def main():
         length = convert(length)
     except:
         sys.exit("Not a vlid answer")
-    end_balance = end_balance(starting_balance, interest_rate, length)
+    final_amount = end_balance(starting_balance, interest_rate, length)
 
 
 
@@ -25,4 +25,8 @@ def convert(x):
     return int(x)
 
 def end_balance(sb, ir, l)
-    end_balance = sb + (sb * ir * l)
+    final_amount = sb + (sb * ir * l)
+    return final_amount
+
+def final_statement(final_amount):
+    
