@@ -21,3 +21,6 @@ if len(sys.argv) == 3:
 if ("-f" or "-font") not in sys.argv[1] or sys.argv[2] not in font_list:
     sys.exit()
 
+if len(sys.argv) not 1:
+    if len(sys.argv) not 3:
+        sys.exit()
