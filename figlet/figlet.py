@@ -10,7 +10,7 @@ font_list = figlet.getFonts()
 
 text = input("Input: ")
 
-if ("-f" or "-font") not in sys.argv[1] or sys.argv[2] not in font_list:
+if ("-f" or "--font") not in sys.argv[1] or sys.argv[2] not in font_list:
     sys.exit()
 
 if len(sys.argv) not 1:
