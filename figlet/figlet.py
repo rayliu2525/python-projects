@@ -19,6 +19,10 @@ if len(sys.argv) == 3:
     print(figlet.renderText(text))
 
 if ("-f" or "-font") not in sys.argv[1] or sys.argv[2] not in font_list:
-    sys.exit
+    sys.exit()
 
-if len(sys.argv) 
+if len(sys.argv) not 1:
+    sys.exit()
+
+if len(sys.argv) not 3:
+    sys.exit()
