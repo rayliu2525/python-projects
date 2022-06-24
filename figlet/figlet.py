@@ -12,7 +12,7 @@ text = input("Input: ")
 
 if len(sys.argv) == 1:
     figlet.setFont(font=(random.choice(font_list)))
-    print(Figlet.renderText(text))
+    print(figlet.renderText(text))
 
 if len(sys.argv) == 3:
     figlet.setFont(font=(sys.argv[2]))
