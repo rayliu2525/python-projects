@@ -10,7 +10,7 @@ if len(sys.argv) != 1:
     if len(sys.argv) != 3:
         sys.exit("1")
 
-if ("-f" or "--font") not in sys.argv[1] or sys.argv[2] not in font_list:
+if ("-f" or "--font") not sys.argv[1] or sys.argv[2] not in font_list:
     sys.exit("1")
 
 text = input("Input: ")
