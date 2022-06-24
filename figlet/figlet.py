@@ -11,10 +11,8 @@ font_list = figlet.getFonts()
 text = input("Input: ")
 
 if len(sys.argv) not 1:
-    sys.exit()
-
-if len(sys.argv) not 3:
-    sys.exit()
+    if len(sys.argv) not 3:
+        sys.exit()
 
 if len(sys.argv) == 1:
     figlet.setFont(font=(random.choice(font_list)))
