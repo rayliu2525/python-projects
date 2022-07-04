@@ -1,2 +1,3 @@
-x = print('{0:.16f}'.format(1.6))
-print(type(x))
+x = 142
+for y in x:
+    print(y)
