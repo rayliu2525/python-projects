@@ -4,3 +4,5 @@ def is_square(n):
         return True
     else:
         return False
+
+print(is_square(15))
