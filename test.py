@@ -1,8 +1,11 @@
 def is_square(n):
     from math import sqrt
-    if float(sqrt(n)).is_integer():
-        return True
-    else:
+    try:
+        if float(sqrt(n)).is_integer():
+            return True
+        else:
+            return False
+    except:
         return False
 
-print(is_square(15))
+print(is_square(-1))
