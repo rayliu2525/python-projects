@@ -1,3 +1,6 @@
-x = 142
-for y in x:
-    print(y)
+def is_square(n):
+    from math import sqrt
+    if float(sqrt(n)).is_integer():
+        return True
+    else:
+        return False
